@@ -1,0 +1,34 @@
+.Greeting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .Description {
+    max-width: 500px;
+    h1 {
+      font-size: 46px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+  }
+  .Wrap-img {
+    max-width: 600px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .Greeting {
+    .Description {
+      h1 {
+        font-size: 36px;
+      }
+    }
+    .Wrap-img {
+      display: none;
+    }
+  }
+}

@@ -16,6 +16,7 @@
     "react/state-in-constructor": 0,
     "react/jsx-no-bind": 0,
     "react/destructuring-assignment": 0,
+    "react/no-array-index-key": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": [
       "error", {
