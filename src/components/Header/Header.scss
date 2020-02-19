@@ -1,0 +1,97 @@
+.Header {
+  color: #000;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+  margin-bottom: 20px;
+  background: #fff;
+  .Block {
+    display: flex;
+    align-items: center;
+  }
+
+  .Block, .Logo, .Lang-wrap {
+    flex-basis: 33.33%;
+  }
+
+  .Logo {
+    text-align: center;
+    img {
+      height: 36px;
+    }
+  }
+
+  .Wrap-Header {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  h3 {
+    padding: 0 0 0 30px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .MuiAppBar-colorPrimary {
+    background: #7282d8;
+  }
+
+  .MuiToolbar-gutters {
+    padding: 0;
+  }
+
+  .MuiIconButton-edgeStart {
+    margin: 0;
+  }
+
+  .Lang-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 12px;
+
+    p {
+      margin-left: auto;
+      padding-right: 10px;
+    }
+  }
+}
+
+.MuiDrawer-paper {
+  max-width: 270px;
+  width: 100%;
+}
+
+.List-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+    svg {
+      margin-right: 10px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      color: #000;
+      width: 100%;
+      height: 100%;
+      padding: 20px 0;
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .Header {
+    h3 {
+      display: none;
+    }
+  }
+}
