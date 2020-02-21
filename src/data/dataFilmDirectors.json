@@ -1,0 +1,508 @@
+[
+  {
+    "id": "1",
+    "name": "Yury Khashchavatski",
+    "dateOfLife": "18.10.1047",
+    "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg",
+    "description": "Belarusian film director and scenarist. Member of the Union of Cinematographers of Belarus. Author of more than thirty films, many awarded prizes at international festivals.",
+    "city": "Minsk",
+    "timeline": [
+      {
+        "date": "18.10.1047",
+        "info": "Born in Odessa, Ukraine"
+      },
+      {
+        "date": "1973",
+        "info": "Graduated from Odessa Technological Institute"
+      },
+      {
+        "date": "1976",
+        "info": "After distribution in Minsk worked as a freelance writer with the Belarusian TV"
+      },
+      {
+        "date": "1981",
+        "info": "Graduated from Russian State Institute of performing arts"
+      },
+      {
+        "date": "1988",
+        "info": "Was at the forefront of the Minsk Association of Jewish Culture, he joined the board of this organization, but soon left it because of disagreement with the methods of management."
+      },
+      {
+        "date": "1998",
+        "info": "Was a member of the Board of Directors of the World Association of Belarusian Jews"
+      },
+      {
+        "date": "2001",
+        "info": "Before the presidential elections was a member of staff Seeds Domaša. "
+      }
+    ],
+    "works": [
+      {
+        "date": "1985",
+        "info": "It is a quiet life in the Deep"
+      },
+      {
+        "date": "1987",
+        "info": "There was a Wing"
+      },
+      {
+        "date": "1989",
+        "info": " Counterclaim"
+      },
+      {
+        "date": "1991",
+        "info": " All is well"
+      },
+      {
+        "date": "1992",
+        "info": "Russian Luck"
+      },
+      {
+        "date": "1996",
+        "info": "An Ordinary President"
+      },
+      {
+        "date": "1996",
+        "info": "Oasis"
+      },
+      {
+        "date": "1998",
+        "info": "Time of Zhou Enlai"
+      },
+      {
+        "date": "2000",
+        "info": "Gods of sickle and hammer"
+      },
+      {
+        "date": "2002",
+        "info": "A Prisoner in the Caucasus"
+      },
+      {
+        "date": "2003",
+        "info": "Oleg Popov - Der Sonnenclown"
+      },
+      {
+        "date": "2007",
+        "info": "Kalinovski Square"
+      }
+    ],
+    "awards": [
+      {
+        "date": "1985",
+        "work": "It's a quiet life in the Deep",
+        "info": "Grand Prix of the All-Union Festival of TV films in Kiev"
+      },
+      {
+        "date": "1987",
+        "work": "There was a Wing",
+        "info": "Grand Prix of the All-Union Festival of TV films in Minsk"
+      },
+      {
+        "date": "1987",
+        "work": "Recruits",
+        "info": "Grand Prix film Belarus (Minsk)"
+      },
+      {
+        "date": "1989",
+        "work": "Counterclaim",
+        "info": "Grand Prix \"Golden Centaur\" International Film Festival \"Message to Man\" (St. Petersburg)"
+      },
+      {
+        "date": "1998",
+        "work": "Russian happiness",
+        "info": "prize \"Ostankino\" for best TV movie and a prize at the International Film Festival in Yekaterinburg. \"Golden Gate Award\" (San Francisco)"
+      },
+      {
+        "date": "1996",
+        "work": "Oasis",
+        "info": "Jury Prize International Film Festival of environmental films (Freiburg)"
+      },
+      {
+        "date": "1997",
+        "work": "Ordinary President",
+        "info": "The Sakharov Prize rasiїskaga Writers Union \"April\" (Moscow). \"Peace Film Award\" at Berlin Film Festival (Forum). Grand Prix Human Rights Watch (New York, 1998). \"Golden Gate Award\" (San Francisco, 1998)"
+      },
+      {
+        "date": "2004",
+        "work": "Prisoner of the Caucasus",
+        "info": "Grand Prix of the World Organization Against Torture - International Documentary Film Festival in Geneva. Gold Award International Film Festival in Belgrade"
+      }
+    ],
+    "galery": [
+      "https://baj.by/sites/default/files/event/preview/maxresdefault_2.jpg",
+      "https://novychas.by/images/bd23cf279cd5b25567f94e2715d42b16.jpg",
+      "https://img.tyt.by/n/politika/05/a/khashchevatskiy.jpg"
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "2",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "3",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "4",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "5",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "6",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "7",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "8",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "9",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  },
+  {
+    "id": "10",
+    "name": "",
+    "dateOfLife": "",
+    "photo": "",
+    "description": "",
+    "city": "",
+    "timeline": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "works": [
+      {
+        "date": "",
+        "info": ""
+      },
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "awards": [
+      {
+        "date": "",
+        "info": ""
+      }
+    ],
+    "galery": [
+      "https://...",
+      "https://...",
+      "https://..."
+    ],
+    "map": "",
+    "youtube": ""
+  }
+]
