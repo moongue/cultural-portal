@@ -8,7 +8,11 @@ const SelectTemplate = props => {
   const { array } = props;
   const { value } = props;
   const { callback } = props;
-  const menuItem = array.map(item => <MenuItem value={item}>{item}</MenuItem>);
+  const menuItem = array.map((item, index) => (
+    <MenuItem value={item} key={index}>
+      {item}
+    </MenuItem>
+  ));
   return (
     <FormControl>
       <Select

@@ -1,8 +1,9 @@
 .Header {
   color: #000;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
   background: #fff;
+
   .Block {
     display: flex;
     align-items: center;
@@ -20,6 +21,8 @@
   }
 
   .Wrap-Header {
+    font-size: 17px;
+    font-weight: 700;
     width: 100%;
     max-width: 960px;
     display: flex;
@@ -30,7 +33,6 @@
 
   h3 {
     padding: 0 0 0 30px;
-    font-size: 16px;
     font-weight: 400;
   }
 
