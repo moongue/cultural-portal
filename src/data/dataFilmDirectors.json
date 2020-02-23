@@ -5,7 +5,7 @@
     "dateOfLife": "18.10.1047",
     "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg",
     "description": "Belarusian film director and scenarist. Member of the Union of Cinematographers of Belarus. Author of more than thirty films, many awarded prizes at international festivals.",
-    "city": "Minsk",
+    "city": "Odessa",
     "timeline": [
       {
         "date": "18.10.1047",
@@ -134,375 +134,358 @@
       "https://img.tyt.by/n/politika/05/a/khashchevatskiy.jpg"
     ],
     "map": "",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=bMtqkkjvcig"
   },
   {
     "id": "2",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
+    "name": "Vladimir Orlov",
+    "dateOfLife": "6.01.1938",
+    "photo": "https://nastgaz.by/wp-content/uploads/2019/10/hyujtrdh-1-768x1024.jpg",
+    "description": "Belarusian film director, screenwriter, writer",
+    "city": "Baku",
     "timeline": [
       {
-        "date": "",
-        "info": ""
+        "date": "6.01.1938",
+        "info": "Born in Baku, he spent his childhood in Azerbaijan."
       },
       {
-        "date": "",
-        "info": ""
+        "date": "1946",
+        "info": "After World War II the family moved to Hrodna"
+      },
+      {
+        "date": "1956",
+        "info": "Vladimir graduated from the school with honors, he decided to become a filmmaker."
+      },
+      {
+        "date": "1963",
+        "info": "He graduated from the Belarusian State Theater and Art Institute. During his studies he worked as an assistant director at the National Film Studio \"BelarusFilm\""
+      },
+      {
+        "date": "1965 — 2000",
+        "info": "I worked in BSSR Gosteleradyo (filmmaker-director creative association \"Telefilm\")"
       }
     ],
     "works": [
       {
-        "date": "",
-        "info": ""
+        "date": "1965",
+        "info": "Cheerful train"
       },
       {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "awards": [
+        "date": "1972",
+        "info": "Dokshitsy loaf"
+      },
       {
-        "date": "",
-        "info": ""
+        "date": "1977",
+        "info": "Verasy"
+      },
+      {
+        "date": "1979",
+        "info": "The guy from the village of White"
+      },
+      {
+        "date": "1983",
+        "info": "Kupalinka"
+      },
+      {
+        "date": "1984",
+        "info": "Zhavaronki, fly"
+      },
+      {
+        "date": "1993",
+        "info": "Choir"
+      },
+      {
+        "date": "1997",
+        "info": "Between a star and a candle"
+      },
+      {
+        "date": "2000",
+        "info": "Mstislav"
+      },
+      {
+        "date": "2012",
+        "info": "Argentine syndrome. In search of paradise"
       }
     ],
+    "awards": [],
     "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
+      "https://nastgaz.by/wp-content/uploads/2019/10/hyujtrdh-1-768x1024.jpg",
+      "http://zviazda.by/sites/default/files/field/image/29-21_kopiya_4.jpg",
+      "https://time.graphics/uploadedFiles/500/02/6b/026b26e93a13fb752b8b39a801cfc63b.jpg"
     ],
     "map": "",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=TOBB80OpIRI"
   },
   {
     "id": "3",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
+    "name": "Moses Berov",
+    "dateOfLife": "23.12.1909 - 21.04.2003",
+    "photo": "https://www.kino-teatr.ru/acter/album/369699/635009.jpg",
+    "description": "Belarusian cameraman, documentary filmmaker",
+    "city": "Velizh",
     "timeline": [
       {
-        "date": "",
-        "info": ""
+        "date": "23.12.1909",
+        "info": "Born into a Jewish family in Vitebsk Velizh province (now - the administrative center of Velizh district of Smolensk region)"
       },
       {
-        "date": "",
-        "info": ""
+        "date": "1930",
+        "info": "He graduated from the Vitebsk Art College"
+      },
+      {
+        "date": "1934",
+        "info": "All-Union Institute of Cinematography"
+      },
+      {
+        "date": "1934-78",
+        "info": "In 44 years of work in the Belarusian cinema took many famous documentaries"
+      },
+      {
+        "date": "1941-1944",
+        "info": "During the 2nd World War was the cameraman on the West and the 3rd Belorussian Fronts"
       }
     ],
     "works": [
       {
-        "date": "",
-        "info": ""
+        "date": "1942",
+        "info": "Moscow Strikes Back"
+      },{
+        "date": "1949",
+        "info": "Sovetskaya Belorussia"
       },
       {
-        "date": "",
-        "info": ""
+        "date": "1962",
+        "info": "Napoleon Globe"
+      },
+      {
+        "date": "1964",
+        "info": "Unforgettable"
+      },
+      {
+        "date": "1965",
+        "info": "Great Victory Day"
+      },
+      {
+        "date": "1966",
+        "info": "State of emergency in the city"
+      },
+      {
+        "date": "1972",
+        "info": "Polesskie carols"
+      },
+      {
+        "date": "1974",
+        "info": "The liberation of Soviet Belarus"
       }
     ],
     "awards": [
       {
-        "date": "",
-        "info": ""
+        "date": "1967",
+        "info": "Honored worker of BSSR arts"
       }
     ],
     "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
+      "https://www.kino-teatr.ru/acter/album/369699/635008.jpg",
+      "https://www.kino-teatr.ru/acter/album/369699/635009.jpg"
     ],
     "map": "",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=frpLnkfHPP0"
   },
   {
     "id": "4",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
+    "name": "Joseph Veynerovich",
+    "dateOfLife": "11.12.1909 - 29.08.1998",
+    "photo": "https://www.peoples.ru/art/cinema/director/iosif_veinerovich/P17ZgSd7Mlf8t.jpeg",
+    "description": "Soviet cameraman and director of documentary films",
+    "city": "Minsk",
     "timeline": [
       {
-        "date": "",
-        "info": ""
+        "date": "1926",
+        "info": "It began its work in the cinema as an operator at the studio Belgoskino."
       },
       {
-        "date": "",
-        "info": ""
+        "date": "1934",
+        "info": "He graduated from the Faculty of the State College of Cinematography"
+      },
+      {
+        "date": "1941 - 1944",
+        "info": "During World War II frontline operator groups of the Central Documentary Film Studio, filming frontline and partisan chronicle."
+      },
+      {
+        "date": "1946 - 1988",
+        "info": "Director of the operator studio Beldyarzhkino - \"BelarusFilm\"."
+      },
+      {
+        "date": "1950",
+        "info": "During the anti-Semitic campaign was excommunicated from work."
+      },
+      {
+        "date": "1951 - 1953",
+        "info": "He worked at the Institute of Mechanization and Electrification of Agriculture BSSR Junior Researcher"
+      },
+      {
+        "date": "1957",
+        "info": "Restored to its original work BelarusFilm."
       }
     ],
     "works": [
       {
-        "date": "",
-        "info": ""
+        "date": "1941",
+        "info": "Our Moscow"
       },
       {
-        "date": "",
-        "info": ""
+        "date": "1942",
+        "info": "Day of War"
+      },
+      {
+        "date": "1943",
+        "info": "Folk avengers"
+      },
+      {
+        "date": "1944",
+        "info": "The liberation of Soviet Belarus"
+      },
+      {
+        "date": "1958",
+        "info": "Industrial Belarus"
+      },
+      {
+        "date": "1963",
+        "info": "Golden bottom"
+      },
+      {
+        "date": "1967",
+        "info": "General Pushcha"
+      },
+      {
+        "date": "1979",
+        "info": "The Great Patriotic War"
+      },
+      {
+        "date": "1977",
+        "info": "Minsk Hero City"
+      },
+      {
+        "date": "1980",
+        "info": "At troubling intersections"
       }
     ],
     "awards": [
       {
-        "date": "",
-        "info": ""
+        "date": "1943",
+        "info": "Prize winner of the Stalin Prize"
+      },
+      {
+        "date": "1968",
+        "info": "BSSR State Prize - for the film \"General Pushcha\""
+      },
+      {
+        "date": "1974",
+        "info": "People's Artist of the BSSR"
       }
     ],
     "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
+      "http://www.kimpress.by/i/content/pi/cult/777/16774/2_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/ru/e/e9/Veinerovich_in.jpg",
+      "https://media2.nekropole.info/2013/09/Iosif_522743041c3c2.jpeg"
     ],
     "map": "",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=jW5IDyz96VU"
   },
   {
     "id": "5",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
+    "name": "Leo Golub",
+    "dateOfLife": "29.09.1904 - 26.05.1994",
+    "photo": "https://upload.wikimedia.org/wikipedia/ru/f/f9/Golub_tn2.jpg",
+    "description": "Belarusian film director, screenwriter. People's Artist of the Belarusian SSR, Honored Artist of Poland. Winner of all-Union and international awards in the field of cinematography.",
+    "city": "Dnieper",
     "timeline": [
       {
-        "date": "",
-        "info": ""
+        "date": "29.09.1904",
+        "info": "Born in the city of Yekaterinoslav (now Dnipro)"
       },
       {
-        "date": "",
-        "info": ""
+        "date": "1922 - 1928",
+        "info": "He studied at a teacher’s seminary in Yekaterinoslav."
+      },
+      {
+        "date": "1928",
+        "info": "He graduated from the State College of Cinematography (now the All-Russian State University of Cinematography named after S. A. Gerasimov)"
+      },
+      {
+        "date": "1928—1946",
+        "info": "He worked as a director at the Sovkino studio (1928 - 1934).\n1934-1937 - at the Odessa film studio,\n1937-1938 - at the Kiev film studio,\n1938-1941 - at the Moscow film studio of popular science films,\n1940-1941 - at the Minsk film studio,\n1941 - at the Mosfilm film studio,\n1941-1943 - at the Central United Film Studios of Feature Films - TsOKS (Alma-Ata),\n1943-1946 - at the Novosibirsk film studio of popular science films"
+      },
+      {
+        "date": "1946",
+        "info": "Started work at the Belarusfilm film studio"
+      },
+      {
+        "date": "1949",
+        "info": "He was the art director of the training studio of the film actor at the Belarusian Theater and Art Institute."
       }
     ],
     "works": [
       {
-        "date": "",
-        "info": ""
+        "date": "1947",
+        "info": "Bialowieza Forest"
       },
       {
-        "date": "",
-        "info": ""
+        "date": "1948",
+        "info": "Soviet Belarus"
+      },
+      {
+        "date": "1949",
+        "info": "The happiness of the people"
+      },
+      {
+        "date": "1954",
+        "info": "Partisan children"
+      },
+      {
+        "date": "1956",
+        "info": "Girl looking for father"
+      },
+      {
+        "date": "1971",
+        "info": "Oginsky Polonaise"
+      },
+      {
+        "date": "1975",
+        "info": "Little sergeant"
       }
     ],
     "awards": [
       {
-        "date": "",
-        "info": ""
+        "date": "1960",
+        "info": "Honored Artist of the BSSR"
+      },
+      {
+        "date": "1964",
+        "info": "People's Artist of the BSSR"
+      },
+      {
+        "date": "1969",
+        "info": "Prize of the Lenin Komsomol of Belarus"
+      },
+      {
+        "date": "1971",
+        "info": "Prize of the USSR Ministry of Education at the International Film Festival in Moscow."
+      },
+      {
+        "date": "1972",
+        "info": "BSSR State Prize for the film \"Oginsky Polonaise\""
       }
     ],
     "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
+      "http://xpress.by/wp-content/uploads/2019/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA-5-1.jpg",
+      "https://lh3.googleusercontent.com/proxy/aZ1JO6A_d7_9bE0SQ_zXPmp3EH1_pSvvQapVgCNO7x9aKUaJrBK9ldzCzZNezGwUMDLvkqyfrkamzi_5NvboeTjAD3khX8NGNiImpLYI",
+      "https://pimg.mycdn.me/getImage?disableStub=true&type=VIDEO_S_720&url=https%3A%2F%2Fvdp.mycdn.me%2FgetImage%3Fid%3D417333512739%26idx%3D6%26thumbType%3D32%26f%3D1&signatureToken=nPAiU4thajX9uenx0mhMSA"
     ],
     "map": "",
-    "youtube": ""
-  },
-  {
-    "id": "6",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
-    "timeline": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "works": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "awards": [
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
-    ],
-    "map": "",
-    "youtube": ""
-  },
-  {
-    "id": "7",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
-    "timeline": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "works": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "awards": [
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
-    ],
-    "map": "",
-    "youtube": ""
-  },
-  {
-    "id": "8",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
-    "timeline": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "works": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "awards": [
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
-    ],
-    "map": "",
-    "youtube": ""
-  },
-  {
-    "id": "9",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
-    "timeline": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "works": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "awards": [
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
-    ],
-    "map": "",
-    "youtube": ""
-  },
-  {
-    "id": "10",
-    "name": "",
-    "dateOfLife": "",
-    "photo": "",
-    "description": "",
-    "city": "",
-    "timeline": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "works": [
-      {
-        "date": "",
-        "info": ""
-      },
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "awards": [
-      {
-        "date": "",
-        "info": ""
-      }
-    ],
-    "galery": [
-      "https://...",
-      "https://...",
-      "https://..."
-    ],
-    "map": "",
-    "youtube": ""
+    "youtube": "https://www.youtube.com/watch?v=ERC4EfoH9Xo"
   }
+
+
+
 ]
