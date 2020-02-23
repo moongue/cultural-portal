@@ -1,4 +1,5 @@
-| Time Spent | User    | feature                                  |
-|:----------:|:-------:|:----------------------------------------:|
-| 4h         | moongue | add project structure with configuration |  
-| 4h         | moongue | add header                               |
+| Time Spent  | User             | feature                                  |
+|:-----------:|:----------------:|:----------------------------------------:|
+| 4h          | moongue          | add project structure with configuration |  
+| 4h          | moongue          | add header                               |
+| 15h         | Juliya-Potapchuk | add storybook with templates             |

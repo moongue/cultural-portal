@@ -1,0 +1,24 @@
+import React from 'react';
+import MenuIcon from '@material-ui/icons/Menu';
+import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
+import ListAltRoundedIcon from '@material-ui/icons/ListAltRounded';
+import CodeRoundedIcon from '@material-ui/icons/CodeRounded';
+import PlaylistAddCheckRoundedIcon from '@material-ui/icons/PlaylistAddCheckRounded';
+import PlayCircleFilledWhiteOutlinedIcon from '@material-ui/icons/PlayCircleFilledWhiteOutlined';
+import PublicOutlinedIcon from '@material-ui/icons/PublicOutlined';
+import WorkOutlineOutlinedIcon from '@material-ui/icons/WorkOutlineOutlined';
+import ArrowUpwardOutlinedIcon from '@material-ui/icons/ArrowUpwardOutlined';
+import DateRangeOutlinedIcon from '@material-ui/icons/DateRangeOutlined';
+import PanoramaOutlinedIcon from '@material-ui/icons/PanoramaOutlined';
+
+export const MenuICON = () => <MenuIcon />;
+export const HomeICON = () => <HomeRoundedIcon />;
+export const FilmmakerICON = () => <ListAltRoundedIcon />;
+export const DevelopersICON = () => <CodeRoundedIcon />;
+export const EventLogICON = () => <PlaylistAddCheckRoundedIcon />;
+export const VideoICON = () => <PlayCircleFilledWhiteOutlinedIcon />;
+export const MapICON = () => <PublicOutlinedIcon />;
+export const WorksICON = () => <WorkOutlineOutlinedIcon />;
+export const BiographyICON = () => <DateRangeOutlinedIcon />;
+export const GalleryICON = () => <PanoramaOutlinedIcon />;
+export const UpICON = () => <ArrowUpwardOutlinedIcon />;
