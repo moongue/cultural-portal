@@ -1,5 +1,7 @@
 .slider {
   margin: 50px 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .awssld__wrapper {
