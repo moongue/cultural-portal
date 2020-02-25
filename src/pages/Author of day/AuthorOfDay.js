@@ -4,6 +4,7 @@ import { withTranslation, useTranslation } from 'react-i18next';
 import './AuthorOfDay.scss';
 import dataFilmDirectors from '../../data/dataFilmDirectors.json';
 import TimelineOfAuthor from '../../components/Timeline/Timeline';
+import MySlider from '../../components/Slider/Slider';
 
 const InitAuthorOfDay = () => {
     const { t } = useTranslation();
@@ -18,6 +19,7 @@ const InitAuthorOfDay = () => {
                 <div className="author--short_description-info">{t('Khashchavatski description')}</div>
               </div>
               <TimelineOfAuthor author={authorOfDay} />
+              <MySlider author={authorOfDay}/>
             </div>
         </div>
     );
