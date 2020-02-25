@@ -10,30 +10,38 @@
       {
         "date": "18.10.1947",
         "info": "Born in Odessa, Ukraine"
+    "dateOfLife": "18.10.1047",
+    "photo": "https://media.cafebabel.com/resized-images/9f/ed/21ecf510b7e4dc07ac34d6a860329c9fa18d.jpg",
+    "description": "Khashchavatski description",
+    "city": "Odessa",
+    "timeline": [
+      {
+        "date": "18.10.1047",
+        "info": "Khashchavatski timeline 0"
       },
       {
         "date": "1973",
-        "info": "Graduated from Odessa Technological Institute"
+        "info": "Khashchavatski timeline 1"
       },
       {
         "date": "1976",
-        "info": "After distribution in Minsk worked as a freelance writer with the Belarusian TV"
+        "info": "Khashchavatski timeline 2"
       },
       {
         "date": "1981",
-        "info": "Graduated from Russian State Institute of performing arts"
+        "info": "Khashchavatski timeline 3"
       },
       {
         "date": "1988",
-        "info": "Was at the forefront of the Minsk Association of Jewish Culture, he joined the board of this organization, but soon left it because of disagreement with the methods of management."
+        "info": "Khashchavatski timeline 4"
       },
       {
         "date": "1998",
-        "info": "Was a member of the Board of Directors of the World Association of Belarusian Jews"
+        "info": "Khashchavatski timeline 5"
       },
       {
         "date": "2001",
-        "info": "Before the presidential elections was a member of staff Seeds Domasha."
+        "info": "Khashchavatski timeline 6"
       }
     ],
     "works": [
@@ -481,7 +489,7 @@
     "id": "6",
     "name": "Victor Dashuk",
     "dateOfLife": "16.09.1938",
-    "photo": "https://lh3.googleusercontent.com/proxy/7gnpskfGCX_b_LiLKdvGvwK9b1vOkEZy1XD_GcRqUEa826C4Cp-_BQepM8JtbZQnquyU7wcDolKIGikzpqih-qSrGCual7Sz23bKcrMngHzHxQbh3TibGzZO7520RhGCu6b8PGRFz-Hor0tXFlOs_4LxYRONGRihWAiFpFI0AQ",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/GoEast_2014_Viktar_Dashuk_2.jpg/233px-GoEast_2014_Viktar_Dashuk_2.jpg",
     "description": "Belarusian documentary filmmaker. USSR State Prize Laureate. Honored Artist of the Byelorussian SSR, People's Artist of the Byelorussian SSR.",
     "city": "Valoki",
     "timeline": [
