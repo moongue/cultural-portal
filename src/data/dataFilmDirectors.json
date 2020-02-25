@@ -2,6 +2,14 @@
   {
     "id": "1",
     "name": "Yury Khashchavatski",
+    "dateOfLife": "18.10.1947",
+    "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg",
+    "description": "Belarusian film director and scenarist. Member of the Union of Cinematographers of Belarus. Author of more than thirty films, many awarded prizes at international festivals.",
+    "city": "Odessa",
+    "timeline": [
+      {
+        "date": "18.10.1947",
+        "info": "Born in Odessa, Ukraine"
     "dateOfLife": "18.10.1047",
     "photo": "https://media.cafebabel.com/resized-images/9f/ed/21ecf510b7e4dc07ac34d6a860329c9fa18d.jpg",
     "description": "Khashchavatski description",
@@ -125,7 +133,7 @@
       "https://novychas.by/images/bd23cf279cd5b25567f94e2715d42b16.jpg",
       "https://img.tyt.by/n/politika/05/a/khashchevatskiy.jpg"
     ],
-    "map": "https://www.google.com/maps/place/Minsk/@53.8845585,27.4532861,11z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9005961!4d27.5590324?hl=en",
+    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=bMtqkkjvcig"
   },
   {

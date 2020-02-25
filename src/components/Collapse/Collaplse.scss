@@ -1,0 +1,22 @@
+.collapse {
+  margin: 50px 0;
+  &--toggle {
+    width: 100%;
+    box-shadow: 0 2px 6px #cccccc;
+    border: none;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    font-size: 2rem;
+  }
+  &--item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #808080;
+    font-size: 1.5rem;
+    .awards {
+      width: 80%;
+    }
+  }
+}

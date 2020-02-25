@@ -1,0 +1,16 @@
+.timeline--animate {
+  margin: auto;
+  &:before {
+    border-radius: 2px;
+  }
+}
+
+.timeline--title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.timeline--animate::before {
+  left: calc(33% + 3px);
+}

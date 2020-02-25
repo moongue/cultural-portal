@@ -1,0 +1,16 @@
+.player {
+  &--title {
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+.video_player {
+  display: block;
+    margin: auto;
+    width: 90%;
+    height: 31vw;
+    max-width: 720px;
+    max-height: 360px;
+}
