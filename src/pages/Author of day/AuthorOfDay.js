@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 import { withTranslation, useTranslation } from 'react-i18next';
 import './AuthorOfDay.scss';
 import dataFilmDirectors from '../../data/dataFilmDirectors.json';
+import Timeline from '../../components/Timeline/Timeline';
 
 const InitAuthorOfDay = () => {
     const { t } = useTranslation();
     const authorOfDay = dataFilmDirectors[0];
-    console.log(authorOfDay);
+    // console.log(authorOfDay);
     return (
         <div className="wrapper">
             <div className="author">
@@ -17,19 +18,7 @@ const InitAuthorOfDay = () => {
                 <div className="author--short_description-date">{authorOfDay.dateOfLife}</div>
                 <div className="author--short_description-info">{t('Khashchavatski description')}</div>
               </div>
-              <div className="author--timeline">
-                <div className="author--timeline-biography">Biography</div>
-                <div className="author--timeline-container">
-                  <div className="entry">
-                    <div className="title">{authorOfDay.timeline[0].date}</div>
-                    <div className="information">{t(`Khashchavatski timeline ${0}`)}</div>
-                  </div>
-                  <div className="entry">
-                    <div className="title">{authorOfDay.timeline[1].date}</div>
-                    <div className="information">{t(`Khashchavatski timeline ${1}`)}</div>
-                  </div>
-                </div>
-              </div>
+              <Timeline author={authorOfDay} />
             </div>
         </div>
     );
