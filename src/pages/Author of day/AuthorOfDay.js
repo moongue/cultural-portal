@@ -6,6 +6,7 @@ import dataFilmDirectors from '../../data/dataFilmDirectors.json';
 import TimelineOfAuthor from '../../components/Timeline/Timeline';
 import MySlider from '../../components/Slider/Slider';
 import MyMap from '../../components/Map/Map.js';
+import Player from '../../components/Player/Player';
 
 const InitAuthorOfDay = () => {
     const { t } = useTranslation();
@@ -14,14 +15,15 @@ const InitAuthorOfDay = () => {
         <div className="wrapper">
             <div className="author">
               <div className="author--short_description">
-                <img src={authorOfDay.photo} alt="author photo" className="author--short_description-img"></img>
+                <img src = { authorOfDay.photo } alt="author photo" className="author--short_description-img"></img>
                 <div className="author--short_description-name">{t('Khashchavatski name')} ({t('Khashchavatski city')})</div>
                 <div className="author--short_description-date">{authorOfDay.dateOfLife}</div>
                 <div className="author--short_description-info">{t('Khashchavatski description')}</div>
               </div>
-              <TimelineOfAuthor author={authorOfDay} />
-              <MySlider author={authorOfDay}/>
-              <MyMap map={authorOfDay.map}/>
+              <TimelineOfAuthor author = { authorOfDay } />
+              <MySlider author = {authorOfDay }/>
+              <MyMap map = {authorOfDay.map }/>
+              <Player youtube ={ authorOfDay.youtube }/>
             </div>
         </div>
     );

@@ -1,0 +1,11 @@
+.player {
+  margin: 50px 0;
+}
+
+.video_player {
+  display: block;
+  margin: auto;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  max-width: 720px;
+}
