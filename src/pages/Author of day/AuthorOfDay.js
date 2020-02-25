@@ -5,6 +5,7 @@ import './AuthorOfDay.scss';
 import dataFilmDirectors from '../../data/dataFilmDirectors.json';
 import TimelineOfAuthor from '../../components/Timeline/Timeline';
 import MySlider from '../../components/Slider/Slider';
+import MyMap from '../../components/Map/Map.js';
 
 const InitAuthorOfDay = () => {
     const { t } = useTranslation();
@@ -20,6 +21,7 @@ const InitAuthorOfDay = () => {
               </div>
               <TimelineOfAuthor author={authorOfDay} />
               <MySlider author={authorOfDay}/>
+              <MyMap map={authorOfDay.map}/>
             </div>
         </div>
     );

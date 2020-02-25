@@ -1,0 +1,15 @@
+.map {
+  &--title {
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+.ymaps-2-1-75-inner-panes, .ymaps-2-1-75-map {
+  border-radius: 25px;
+}
+
+.ymaps-2-1-75-map {
+  box-shadow: 10px 10px 16px 0px #565656;
+}
