@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Egor Ryabtsev",
+    "photo": "https://avatars3.githubusercontent.com/u/45271624?s=400&v=4",
+    "description": "",
+    "city": "unknown"
+  },
+  
+  {
+    "id": "2",
+    "name": "Konstantin Andreev",
+    "photo": "https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/man5-512.png",
+    "description": "",
+    "city": "Moscow"
+  },
+
+  {
+    "id": "3",
+    "name": "Nadia Kaputkina",
+    "photo": "https://avatars2.githubusercontent.com/u/49942066?s=400&v=4",
+    "description": "",
+    "city": "Minsk"
+  },
+
+  {
+    "id": "4",
+    "name": "Oleksandr Moiseienko",
+    "photo": "https://avatars1.githubusercontent.com/u/35103618?s=400&v=4",
+    "description": "",
+    "city": "Mykolayiv"
+  },
+
+  {
+    "id": "5",
+    "name": "Yuliya Potapchuk",
+    "photo": "https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/woman4-512.png",
+    "description": "",
+    "city": "Minsk"
+  }
+
+]
