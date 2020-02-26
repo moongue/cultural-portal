@@ -4,6 +4,7 @@ import { withTranslation } from 'react-i18next';
 import ScrollToTop from './hoc/ScrollToTop';
 import Header from './components/Header/Header';
 import Greeting from './components/Greeting/Greeting';
+import Developers from './pages/Developers/Developers';
 import AuthorOfDay from './pages/AuthorOfDay/AuthorOfDay';
 import FilmDirectorsList from './pages/FilmDirectorsList/FilmDirectorsList';
 import FilmDirector from './pages/FilmDirector/FilmDirector';
@@ -17,6 +18,10 @@ class AppEl extends Component {
         <div className="wrapper">
           <Route path="/" exact>
             <Greeting />
+          </Route>
+          <Route path="/film-directors" exact component={FilmDirectorsList} />
+          <Route path="/film-directors/:id" component={FilmDirector} />
+          <Route path="/developers" component={Developers} />
             <AuthorOfDay />
             <Footer />
           </Route>
