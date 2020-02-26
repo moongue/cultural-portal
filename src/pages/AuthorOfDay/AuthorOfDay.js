@@ -17,9 +17,9 @@ const InitAuthorOfDay = () => {
             <div className="author">
               <div className="author--short_description">
                 <img src = { authorOfDay.photo } alt="author photo" className="author--short_description-img" />
-                <div className="author--short_description-name">{t('Khashchavatski name')} ({t('Khashchavatski city')})</div>
+                <div className="author--short_description-name">{t(authorOfDay.name)} ({t(authorOfDay.city)})</div>
                 <div className="author--short_description-date">{authorOfDay.dateOfLife}</div>
-                <div className="author--short_description-info">{t('Khashchavatski description')}</div>
+                <div className="author--short_description-info">{t(authorOfDay.description)}</div>
               </div>
               <TimelineOfAuthor author = { authorOfDay } />
               <MySlider author = {authorOfDay }/>

@@ -49,9 +49,9 @@
   "Khashchavatski awards 7": "For the film \"Prisoner of the Caucasus\": Grand Prix of the World Organization Against Torture - International Documentary Film Festival in Geneva. Gold Award International Film Festival in Belgrade",
 
 
-  "Orlov name": "Vladimir Orlov",
+  "Vladimir Orlov": "Vladimir Orlov",
   "Orlov description": "Belarusian film director, screenwriter, writer",
-  "Orlov city": "Baku",
+  "Baku": "Baku",
   "Orlov timeline 0": "Born in Baku, he spent his childhood in Azerbaijan.",
   "Orlov timeline 1": "After World War II the family moved to Hrodna",
   "Orlov timeline 2": "Vladimir graduated from the school with honors, he decided to become a filmmaker.",
@@ -69,9 +69,9 @@
   "Orlov works 9": "Argentine syndrome. In search of paradise",
 
 
-  "Berov name": "Moses Berov",
+  "Moses Berov": "Moses Berov",
   "Berov description": "Belarusian cameraman, documentary filmmaker",
-  "Berov city": "Velizh",
+  "Velizh": "Velizh",
   "Berov timeline 0": "Born into a Jewish family in Vitebsk Velizh province (now - the administrative center of Velizh district of Smolensk region)",
   "Berov timeline 1": "He graduated from the Vitebsk Art College",
   "Berov timeline 2": "All-Union Institute of Cinematography",
@@ -88,9 +88,9 @@
   "Berov awards 0": "Honored worker of BSSR arts",
 
 
-  "Veynerovich name": "Joseph Veynerovich",
+  "Joseph Veynerovich": "Joseph Veynerovich",
   "Veynerovich description": "Soviet cameraman and director of documentary films",
-  "Veynerovich city": "Minsk",
+  "Minsk": "Minsk",
   "Veynerovich timeline 0": "It began its work in the cinema as an operator at the studio Belgoskino.",
   "Veynerovich timeline 1": "He graduated from the Faculty of the State College of Cinematography",
   "Veynerovich timeline 2": "During World War II frontline operator groups of the Central Documentary Film Studio, filming frontline and partisan chronicle.",
@@ -113,9 +113,9 @@
   "Veynerovich awards 2": "People's Artist of the BSSR",
 
 
-  "Golub name": "Leo Golub",
+  "Leo Golub": "Leo Golub",
   "Golub description": "Belarusian film director, screenwriter. People's Artist of the Belarusian SSR, Honored Artist of Poland. Winner of all-Union and international awards in the field of cinematography.",
-  "Golub city": "Dnieper",
+  "Dnieper": "Dnieper",
   "Golub timeline 0": "Born in the city of Yekaterinoslav (now Dnipro)",
   "Golub timeline 1": "He studied at a teacher’s seminary in Yekaterinoslav.",
   "Golub timeline 2": "He graduated from the State College of Cinematography (now the All-Russian State University of Cinematography named after S. A. Gerasimov)",
@@ -135,9 +135,9 @@
   "Golub awards 3": "Prize of the USSR Ministry of Education at the International Film Festival in Moscow.",
   "Golub awards 4": "BSSR State Prize for the film \"Oginsky Polonaise\"",
 
-  "Dashuk name": "Victor Dashuk",
+  "Victor Dashuk": "Victor Dashuk",
   "Dashuk description": "Belarusian documentary filmmaker. USSR State Prize Laureate. Honored Artist of the Byelorussian SSR, People's Artist of the Byelorussian SSR.",
-  "Dashuk city": "Valoki",
+  "Valoki": "Valoki",
   "Dashuk timeline 0": "Born in the village Dies Khoyniki district of Gomel region",
   "Dashuk timeline 1": "He graduated from the faculty of journalism, BSU",
   "Dashuk timeline 2": "Powered by studio \"BelarusFilm\" - he was an administrator, operator assistant director",
@@ -156,7 +156,31 @@
   "Dashuk awards 2": "The prize \"Silver Dove\" at the International Festival in Leipzig for the film \"I Met You\"",
   "Dashuk awards 3": "Winner of the USSR State Prize for the series of films \"I am from the village of fire\" and \"War is not a woman's face\"",
   "Dashuk awards 4": "People's Artist of the Byelorussian SSR",
-  "Dashuk awards 5": "Winner of the honorary diploma of the jury of the 42nd International Film Festival in Krakow"
+  "Dashuk awards 5": "Winner of the honorary diploma of the jury of the 42nd International Film Festival in Krakow",
+
+
+  "Vladimir Moroz": "Vladimir Moroz",
+  "Moroz description": "Belarusian film director, writer and screenwriter, poet.",
+  "Kossovo": "Kossovo",
+  "Moroz timeline 0": "Born in the village of Kosovo, Ivatsevichi district.",
+  "Moroz timeline 1": "He graduated from the Faculty of Architecture of the Belarusian Polytechnic Institute",
+  "Moroz timeline 2": "Graduated from the A.M. Gorky Literary Institute in Moscow",
+  "Moroz timeline 3": "In cinematography since 1981: senior editor of the Goskino BSSR",
+  "Moroz timeline 4": "Leading editor of the Chronicle studio of the Belarusfilm film studio",
+  "Moroz timeline 5": "Deputy editor-in-chief of the Belarusian magazine Byarozka. Leading editor of documentary films of the Belarusfilm National Film Studio",
+  "Moroz timeline 6": "Director of the Documentary Film Studio \"Chronicle\"",
+  "Moroz works 0": "Oil Pearl of Belarus",
+  "Moroz works 1": "And let us be an eternal monument",
+  "Moroz works 2": "The memory of Mykola Ravensky",
+  "Moroz works 3": "Laser Alferova",
+  "Moroz works 4": "Mythologemes Homeland",
+  "Moroz works 5": "Belarusfilm 2010",
+  "Moroz awards 0": "The film “Memories of Mikola Ravensky” was awarded the State Prize of the Republic of Belarus",
+  "Moroz awards 1": "Awarded the Certificate of Honor and the badge of the Ministry of Culture of the Republic of Belarus “For Contribution to the Development of the Culture of Belarus”",
+  "Moroz awards 2": "Medal of the Union of Belarusian Cinematographers \"For exceptional services in Belarusian cinema\"",
+  "Moroz awards 3": "Received an honorary diploma of the Council of Ministers of the Republic of Belarus",
+  "Moroz awards 4": "Awarded the badge of the National Film Studio Belarusfilm \"For Merit\"",
+  "Moroz awards 5": "Belarusian Trade Union Award"
 
 
 }
