@@ -3,13 +3,15 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import AwsSliderStyles from './Slider.scss';
 
-const Slider = (props) => {
+const Slider = props => {
   const { gallery } = props.author;
   return (
-    <AwesomeSlider className='slider' cssModule={AwsSliderStyles}>
-      {gallery.map( (e, i) => <div data-src={e} alt='img' key={i}/>)}
+    <AwesomeSlider className="slider" cssModule={AwsSliderStyles}>
+      {gallery.map((e, i) => (
+        <div data-src={e} alt="img" key={i} />
+      ))}
     </AwesomeSlider>
-  )
-}
+  );
+};
 
 export default Slider;

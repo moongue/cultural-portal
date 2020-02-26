@@ -1,4 +1,6 @@
 .player {
+  margin-top: 50px;
+
   &--title {
     font-size: 2rem;
     margin: 10px 0;
@@ -7,10 +9,9 @@
 }
 
 .video_player {
+  border-radius: 8px;
   display: block;
-    margin: auto;
-    width: 90%;
-    height: 60vw;
-    max-width: 720px;
-    max-height: 360px;
+  margin: auto;
+  width: 100%;
+  height: 40vw;
 }

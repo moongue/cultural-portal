@@ -41,7 +41,7 @@ const HeaderEl = props => {
       }
     ],
     left: false,
-    lang: 'en'
+    lang: localStorage.getItem('i18nextLng') || 'en'
   });
   const { t } = useTranslation();
 
