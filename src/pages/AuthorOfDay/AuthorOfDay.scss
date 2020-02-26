@@ -1,0 +1,57 @@
+.author-day {
+  margin-bottom: 50px;
+}
+
+.wrap-author-day {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.img-author-day {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  min-width: 240px;
+}
+
+.description-author-day {
+  margin: 0 0 0 30px;
+  p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .author-day {
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+  .description-author-day {
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .wrap-author-day {
+    flex-direction: column;
+  }
+  .description-author-day {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}

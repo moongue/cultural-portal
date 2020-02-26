@@ -7,34 +7,34 @@ $primary-color: #000000;
 $secondary-color: #585454;
 
 h1 {
-    font-family: $font-1;
-    font-size: 46px;
+  font-family: $font-1;
+  font-size: 46px;
 }
 
 h2 {
-    font-family: $font-1;
-    font-size: 28px;
-    text-align: center;
-    line-height: 16px;
+  font-family: $font-1;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.3;
 }
 
 h3 {
-    font-family: $font-1;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 700;
+  font-family: $font-1;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
 }
 
 h4 {
-    font-family: $font-1;
-    font-size: 40px;
+  font-family: $font-1;
+  font-size: 40px;
 }
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -49,7 +49,7 @@ a {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 .wrapper {
@@ -58,8 +58,31 @@ code {
   margin: 0 auto;
 }
 
-@media only screen and (max-width : 767px) {
+.MuiInputBase-input {
+  overflow: hidden;
+  &:focus {
+    &::-webkit-input-placeholder {
+      transition: all .3s ease-in-out;
+      transform: translateX(70%);
+      opacity: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
   .wrapper {
     padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 637px) {
+  .MuiCard-root {
+    width: 45% !important;
+  }
+}
+
+@media only screen and (max-width: 397px) {
+  .MuiCard-root {
+    width: 100% !important;
   }
 }

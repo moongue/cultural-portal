@@ -1,0 +1,17 @@
+.player {
+  margin-top: 50px;
+
+  &--title {
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+.video_player {
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 40vw;
+}

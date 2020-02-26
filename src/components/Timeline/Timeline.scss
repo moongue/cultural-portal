@@ -1,0 +1,29 @@
+.body-container {
+  padding: 200px;
+  border-radius: 6px !important;
+  background: inherit !important;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid #000;
+}
+.timeline-item-dateinner {
+  background: #fff !important;
+}
+.timeline--animate {
+  margin: auto;
+  &:before {
+    border-radius: 2px;
+  }
+}
+
+.timeline--title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.timeline--animate::before {
+  left: calc(33% + 3px);
+  @media only screen and (max-width: 720px) {
+    left: 9px;
+  }
+}

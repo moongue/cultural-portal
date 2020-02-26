@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, withRouter } from 'react-router-dom';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ListItem from '@material-ui/core/ListItem';
@@ -16,7 +16,7 @@ import './Header.scss';
 import i18next from 'i18next';
 import logo from '../../assets/logo.svg';
 
-const HeaderEl = () => {
+const HeaderEl = props => {
   const [state, setState] = React.useState({
     nav: [
       {
@@ -41,7 +41,7 @@ const HeaderEl = () => {
       }
     ],
     left: false,
-    lang: 'en'
+    lang: localStorage.getItem('i18nextLng') || 'en'
   });
   const { t } = useTranslation();
 
@@ -78,6 +78,21 @@ const HeaderEl = () => {
     </div>
   );
 
+  function pageTitle() {
+    switch (props.location.pathname) {
+      case '/':
+        return 'Author of the day';
+      case '/developers':
+        return 'Developers';
+      case '/film-directors':
+        return 'Film Directors';
+      case '/worklog':
+        return 'Worklog';
+      default:
+        return 'Film Director page';
+    }
+  }
+
   const handleChangeLang = event => {
     setState({ ...state, lang: event.target.value });
     i18next.changeLanguage(event.target.value);
@@ -96,7 +111,7 @@ const HeaderEl = () => {
             <MenuIcon />
           </IconButton>
           <p>{t('Menu')}</p>
-          <h3>{t('Author of the day')}</h3>
+          <h3>{t(pageTitle())}</h3>
         </div>
         <NavLink to="/" className="Logo">
           <img src={logo} alt="Logo" />
@@ -129,7 +144,7 @@ const HeaderEl = () => {
   );
 };
 
-const HeaderComponent = withTranslation()(HeaderEl);
+const HeaderComponent = withTranslation()(withRouter(HeaderEl));
 
 export default function Header() {
   return (

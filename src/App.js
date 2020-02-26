@@ -1,11 +1,14 @@
 import React, { Component, Suspense } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { withTranslation } from 'react-i18next';
+import ScrollToTop from './hoc/ScrollToTop';
 import Header from './components/Header/Header';
 import Greeting from './components/Greeting/Greeting';
+import Developers from './pages/Developers/Developers';
+import AuthorOfDay from './pages/AuthorOfDay/AuthorOfDay';
 import FilmDirectorsList from './pages/FilmDirectorsList/FilmDirectorsList';
 import FilmDirector from './pages/FilmDirector/FilmDirector';
-import Developers from './pages/Developers/Developers';
+import Footer from './components/Footer/Footer';
 
 class AppEl extends Component {
   render() {
@@ -19,7 +22,11 @@ class AppEl extends Component {
           <Route path="/film-directors" exact component={FilmDirectorsList} />
           <Route path="/film-directors/:id" component={FilmDirector} />
           <Route path="/developers" component={Developers} />
-
+            <AuthorOfDay />
+            <Footer />
+          </Route>
+          <Route path="/film-directors" exact component={FilmDirectorsList} />
+          <Route path="/film-directors/:id" component={FilmDirector} />
         </div>
       </>
     );
@@ -31,9 +38,11 @@ const AppComponent = withTranslation()(AppEl);
 export default function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback="loading">
-        <AppComponent />
-      </Suspense>
+      <ScrollToTop>
+        <Suspense fallback="loading">
+          <AppComponent />
+        </Suspense>
+      </ScrollToTop>
     </BrowserRouter>
   );
 }

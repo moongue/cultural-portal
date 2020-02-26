@@ -5,24 +5,21 @@ import '../../../index.scss';
 
 const MyButton = styled(Button)({
   fontFamily: 'Roboto, sans-serif',
-  fontSize: 11,
-  background: '#808080',
-  border: 0,
+  fontSize: 13,
+  color: '#000',
+  border: '1px solid #000',
   borderRadius: 3,
-  boxShadow: '0 1px 4px 1px #000000',
-  color: 'white',
-  height: 30,
+  boxShadow: '0 0 9px rgba(0, 0, 0, 0.2)',
   width: 141,
   margin: 'auto',
-  padding: '0 30px',
-
+  transition: 'all .2s ease-in-out',
   '&:hover': {
-    background: '#585454'
+    transform: 'scale(1.03)',
   }
 });
 
 const SmallButton = props => {
-  return <MyButton onClick={e => this.props.onClick(e)}>{props.text}</MyButton>;
+  return <MyButton onClick={e => props.onClick(e)}>{props.text}</MyButton>;
 };
 
 export default SmallButton;

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: calc(100vh - 53px);
   .Description {
     max-width: 500px;
     h1 {
