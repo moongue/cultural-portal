@@ -3,6 +3,9 @@
   &-top {
     display: flex;
     align-items: center;
+    @media only screen and (max-width: 780px) {
+      display: block;
+    }
   }
   &--short_description {
     max-width: 500px;
