@@ -22,7 +22,7 @@ const TimelineOfAuthor = props => {
               boxShadow: '5px 5px 10px #bfbfbf'
             }}
           >
-            <div>{t(`Khashchavatski timeline ${i}`)}</div>
+            <div>{t(e.info)}</div>
           </TimelineItem>
         ))}
       </Timeline>

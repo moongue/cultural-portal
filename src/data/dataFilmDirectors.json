@@ -120,7 +120,7 @@
         "info": "Khashchavatski awards 7"
       }
     ],
-    "galery": [
+    "gallery": [
       "https://baj.by/sites/default/files/event/preview/maxresdefault_2.jpg",
       "https://novychas.by/images/bd23cf279cd5b25567f94e2715d42b16.jpg",
       "https://img.tyt.by/n/politika/05/a/khashchevatskiy.jpg"
@@ -131,13 +131,13 @@
   {
     "id": "2",
     "name": "Vladimir Orlov",
-    "dateOfLife": "6.01.1938",
+    "dateOfLife": "06.01.1938",
     "photo": "https://nastgaz.by/wp-content/uploads/2019/10/hyujtrdh-1-768x1024.jpg",
-    "description": "Belarusian film director, screenwriter, writer",
+    "description": "Orlov description",
     "city": "Baku",
     "timeline": [
       {
-        "date": "6.01.1938",
+        "date": "06.01.1938",
         "info": "Orlov timeline 0"
       },
       {
@@ -200,7 +200,7 @@
       }
     ],
     "awards": [],
-    "galery": [
+    "gallery": [
       "https://nastgaz.by/wp-content/uploads/2019/10/hyujtrdh-1-768x1024.jpg",
       "http://zviazda.by/sites/default/files/field/image/29-21_kopiya_4.jpg",
       "https://time.graphics/uploadedFiles/500/02/6b/026b26e93a13fb752b8b39a801cfc63b.jpg"
@@ -213,7 +213,7 @@
     "name": "Moses Berov",
     "dateOfLife": "23.12.1909 - 21.04.2003",
     "photo": "https://www.kino-teatr.ru/acter/album/369699/635009.jpg",
-    "description": "Belarusian cameraman, documentary filmmaker",
+    "description": "Berov description",
     "city": "Velizh",
     "timeline": [
       {
@@ -276,7 +276,7 @@
         "info": "Berov awards 0"
       }
     ],
-    "galery": [
+    "gallery": [
       "https://www.kino-teatr.ru/acter/album/369699/635008.jpg",
       "https://www.kino-teatr.ru/acter/album/369699/635009.jpg"
     ],
@@ -288,7 +288,7 @@
     "name": "Joseph Veynerovich",
     "dateOfLife": "11.12.1909 - 29.08.1998",
     "photo": "https://www.peoples.ru/art/cinema/director/iosif_veinerovich/P17ZgSd7Mlf8t.jpeg",
-    "description": "Soviet cameraman and director of documentary films",
+    "description": "Veynerovich description",
     "city": "Minsk",
     "timeline": [
       {
@@ -376,7 +376,7 @@
         "info": "Veynerovich awards 2"
       }
     ],
-    "galery": [
+    "gallery": [
       "http://www.kimpress.by/i/content/pi/cult/777/16774/2_2.jpg",
       "https://upload.wikimedia.org/wikipedia/ru/e/e9/Veinerovich_in.jpg",
       "https://media2.nekropole.info/2013/09/Iosif_522743041c3c2.jpeg"
@@ -469,7 +469,7 @@
         "info": "Golub awards 4"
       }
     ],
-    "galery": [
+    "gallery": [
       "http://xpress.by/wp-content/uploads/2019/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA-5-1.jpg",
       "https://lh3.googleusercontent.com/proxy/aZ1JO6A_d7_9bE0SQ_zXPmp3EH1_pSvvQapVgCNO7x9aKUaJrBK9ldzCzZNezGwUMDLvkqyfrkamzi_5NvboeTjAD3khX8NGNiImpLYI",
       "https://pimg.mycdn.me/getImage?disableStub=true&type=VIDEO_S_720&url=https%3A%2F%2Fvdp.mycdn.me%2FgetImage%3Fid%3D417333512739%26idx%3D6%26thumbType%3D32%26f%3D1&signatureToken=nPAiU4thajX9uenx0mhMSA"
@@ -482,7 +482,7 @@
     "name": "Victor Dashuk",
     "dateOfLife": "16.09.1938",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/GoEast_2014_Viktar_Dashuk_2.jpg/233px-GoEast_2014_Viktar_Dashuk_2.jpg",
-    "description": "Belarusian documentary filmmaker. USSR State Prize Laureate. Honored Artist of the Byelorussian SSR, People's Artist of the Byelorussian SSR.",
+    "description": "Dashuk description",
     "city": "Valoki",
     "timeline": [
       {
@@ -566,7 +566,7 @@
         "info": "Dashuk awards 5"
       }
     ],
-    "galery": [
+    "gallery": [
       "https://upload.wikimedia.org/wikipedia/ru/thumb/3/37/Daschuk.jpg/350px-Daschuk.jpg",
       "https://persons-info.com/userfiles/image/persons/50000-60000/55000-56000/55827/DASHUK_Viktor_Nikiforovich1.jpg",
       "http://www.paul-katzenberger.de/wp-content/uploads/2014/08/viktar_dashuk-600x399.jpg"
@@ -663,7 +663,7 @@
         "info": "Moroz awards 5"
       }
     ],
-    "galery": [
+    "gallery": [
       "https://time.graphics/uploadedFiles/500/00/5f/005f0b02e6d44ad37ebae2d3b2772dc2.jpg",
       "https://lit-bel.org/assets/images/2015/News/maroz_07.JPG",
       "https://www.sb.by/upload/resize_cache/slam.image/iblock/c02/c021bfd5414d2efb1a8baf92d52bd967.jpg"
