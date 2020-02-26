@@ -1,0 +1,21 @@
+.author {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 0 20px 0;
+  &--short_description {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    &-img {
+      border-radius: 20px;
+      max-height: 600px;
+      box-shadow: 5px 5px 8px 0px #000000;
+    }
+    &-name {
+      font-size: 2rem;
+    }
+    div {
+      margin-top: 5px;
+    }
+  }
+}

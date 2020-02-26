@@ -1,47 +1,42 @@
 import React, { Suspense } from 'react';
-import PropTypes from 'prop-types';
+import { Link, withRouter } from 'react-router-dom';
 import { withTranslation, useTranslation } from 'react-i18next';
 import './AuthorOfDay.scss';
-import dataFilmDirectors from '../../data/dataFilmDirectors.json';
-import TimelineOfAuthor from '../../components/Timeline/Timeline';
-import MySlider from '../../components/Slider/Slider';
-import MyMap from '../../components/Map/Map.js';
-import Player from '../../components/Player/Player';
-import MyCollapse from '../../components/Collapse/Collapse';
+import data from '../../data/dataFilmDirectors.json';
+import SmallButton from '../../components/UI/Buttons/Small-button';
 
-const InitAuthorOfDay = () => {
-    const { t } = useTranslation();
-    const authorOfDay = dataFilmDirectors[0];
-    return (
-        <div className="wrapper">
-            <div className="author">
-              <div className="author--short_description">
-                <img src = { authorOfDay.photo } alt="author photo" className="author--short_description-img" />
-                <div className="author--short_description-name">{t(authorOfDay.name)} ({t(authorOfDay.city)})</div>
-                <div className="author--short_description-date">{authorOfDay.dateOfLife}</div>
-                <div className="author--short_description-info">{t(authorOfDay.description)}</div>
-              </div>
-              <TimelineOfAuthor author = { authorOfDay } />
-              <MySlider author = {authorOfDay }/>
-              <MyCollapse list = { authorOfDay.works } tittle = {t('Works')} content = 'works' t = { t }/>
-              <MyCollapse list = { authorOfDay.awards } tittle = {t('Awards')} content = 'awards' t = { t }/>
-              <Player youtube = { authorOfDay.youtube } />
-              <MyMap map = {authorOfDay.map }/>
-            </div>
+const FilmDirectorEl = () => {
+  const id = 4;
+  const { t } = useTranslation();
+
+  return (
+    <div className="author-day">
+      <h2>{t('Author of the day')}</h2>
+      <div className="wrap-author-day">
+        <img
+          className="img-author-day"
+          src={data[id].photo}
+          alt={data[id].name}
+        />
+        <div className="description-author-day">
+          <h2 style={{ textAlign: 'left' }}>{t(data[id].name)}</h2>
+          <p>{data[id].dateOfLife}</p>
+          <p>{t(data[id].description)}</p>
+          <Link to={`film-directors/${id}`}>
+            <SmallButton onClick={() => false} text={t('More')} />
+          </Link>
         </div>
-    );
-  };
-
-InitAuthorOfDay.propsTypes = {
-    children: PropTypes.node
+      </div>
+    </div>
+  );
 };
 
-const AuthorOfDayComponent = withTranslation()(InitAuthorOfDay);
+const FilmDirectorComponent = withTranslation()(withRouter(FilmDirectorEl));
 
-export default function AuthorOfDay() {
-    return (
-        <Suspense fallback="loading">
-          <AuthorOfDayComponent />
-        </Suspense>
-      );
+export default function FilmDirector() {
+  return (
+    <Suspense fallback="loading">
+      <FilmDirectorComponent />
+    </Suspense>
+  );
 }
