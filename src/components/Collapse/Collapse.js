@@ -23,7 +23,7 @@ class MyCollapse extends Component {
         <Collapse isOpen={ toggle } transition="height 300ms cubic-bezier(.4, 0, .2, 1)">
           {list.map( (e, i) => <div className = 'collapse--item' key = { i }>
             <span>{e.date}</span>
-            <span className = { content }>{t(`Khashchavatski ${content} ${i}`)}</span>
+            <span className = { content }>{t(e.info)}</span>
           </div>)}
         </Collapse>
       </div>

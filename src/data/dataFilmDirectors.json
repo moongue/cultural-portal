@@ -4,16 +4,8 @@
     "name": "Yury Khashchavatski",
     "dateOfLife": "18.10.1947",
     "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg",
-    "description": "Belarusian film director and scenarist. Member of the Union of Cinematographers of Belarus. Author of more than thirty films, many awarded prizes at international festivals.",
     "city": "Odessa",
-    "timeline": [
-      {
-        "date": "18.10.1947",
-        "info": "Born in Odessa, Ukraine"
-    "dateOfLife": "18.10.1047",
-    "photo": "https://media.cafebabel.com/resized-images/9f/ed/21ecf510b7e4dc07ac34d6a860329c9fa18d.jpg",
     "description": "Khashchavatski description",
-    "city": "Odessa",
     "timeline": [
       {
         "date": "18.10.1047",
@@ -47,88 +39,88 @@
     "works": [
       {
         "date": "1985",
-        "info": "It is a quiet life in the Deep"
+        "info": "Khashchavatski works 0"
       },
       {
         "date": "1987",
-        "info": "There was a Wing"
+        "info": "Khashchavatski works 1"
       },
       {
         "date": "1989",
-        "info": "Counterclaim"
+        "info": "Khashchavatski works 2"
       },
       {
         "date": "1991",
-        "info": "All is well"
+        "info": "Khashchavatski works 3"
       },
       {
         "date": "1992",
-        "info": "Russian Luck"
+        "info": "Khashchavatski works 4"
       },
       {
         "date": "1996",
-        "info": "An Ordinary President"
+        "info": "Khashchavatski works 5"
       },
       {
         "date": "1996",
-        "info": "Oasis"
+        "info": "Khashchavatski works 6"
       },
       {
         "date": "1998",
-        "info": "Time of Zhou Enlai"
+        "info": "Khashchavatski works 7"
       },
       {
         "date": "2000",
-        "info": "Gods of sickle and hammer"
+        "info": "Khashchavatski works 8"
       },
       {
         "date": "2002",
-        "info": "A Prisoner in the Caucasus"
+        "info": "Khashchavatski works 9"
       },
       {
         "date": "2003",
-        "info": "Sunny clown"
+        "info": "Khashchavatski works 10"
       },
       {
         "date": "2007",
-        "info": "Kalinovski Square"
+        "info": "Khashchavatski works 11"
       }
     ],
     "awards": [
       {
         "date": "1985",
-        "info": "For the film \"It's a quiet life in the Deep\": Grand Prix of the All-Union Festival of TV films in Kiev"
+        "info": "Khashchavatski awards 0"
       },
       {
         "date": "1987",
-        "info": "For the film \"There was a Wing\": Grand Prix of the All-Union Festival of TV films in Minsk"
+        "info": "Khashchavatski awards 1"
       },
       {
         "date": "1987",
-        "info": "For the film \"Recruits\": Grand Prix film Belarus (Minsk)"
+        "info": "Khashchavatski awards 2"
       },
       {
         "date": "1989",
-        "info": "For the film \"Counterclaim\": Grand Prix \"Golden Centaur\" International Film Festival \"Message to Man\" (St. Petersburg)"
+        "info": "Khashchavatski awards 3"
       },
       {
         "date": "1998",
-        "info": "For the film \"Russian happiness\": Prize \"Ostankino\" for best TV movie and a prize at the International Film Festival in Yekaterinburg. \"Golden Gate Award\" (San Francisco)"
+        "info": "Khashchavatski awards 4"
       },
       {
         "date": "1996",
-        "info": "For the film \"Oasis\": Jury Prize International Film Festival of environmental films (Freiburg)"
+        "info": "Khashchavatski awards 5"
       },
       {
         "date": "1997",
-        "info": "For the film \"Ordinary President\": The Sakharov Prize rasiїskaga Writers Union \"April\" (Moscow). \"Peace Film Award\" at Berlin Film Festival (Forum). Grand Prix Human Rights Watch (New York, 1998). \"Golden Gate Award\" (San Francisco, 1998)"
+        "info": "Khashchavatski awards 6"
       },
       {
         "date": "2004",
-        "info": "For the film \"Prisoner of the Caucasus\": Grand Prix of the World Organization Against Torture - International Documentary Film Festival in Geneva. Gold Award International Film Festival in Belgrade"
+        "info": "Khashchavatski awards 7"
       }
     ],
-    "galery": [
+    "gallery": [
       "https://baj.by/sites/default/files/event/preview/maxresdefault_2.jpg",
       "https://novychas.by/images/bd23cf279cd5b25567f94e2715d42b16.jpg",
       "https://img.tyt.by/n/politika/05/a/khashchevatskiy.jpg"
@@ -208,12 +200,12 @@
       }
     ],
     "awards": [],
-    "galery": [
+    "gallery": [
       "https://nastgaz.by/wp-content/uploads/2019/10/hyujtrdh-1-768x1024.jpg",
       "http://zviazda.by/sites/default/files/field/image/29-21_kopiya_4.jpg",
       "https://time.graphics/uploadedFiles/500/02/6b/026b26e93a13fb752b8b39a801cfc63b.jpg"
     ],
-    "map": "https://www.google.com/maps/place/Minsk/@53.8845585,27.4532861,11z/data=!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9005961!4d27.5590324?hl=en",
+    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=TOBB80OpIRI"
   },
   {
@@ -284,11 +276,11 @@
         "info": "Honored worker of BSSR arts"
       }
     ],
-    "galery": [
+    "gallery": [
       "https://www.kino-teatr.ru/acter/album/369699/635008.jpg",
       "https://www.kino-teatr.ru/acter/album/369699/635009.jpg"
     ],
-    "map": "https://www.google.com/maps/place/Minsk/@53.8845585,27.4532861,11z/data=!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9005961!4d27.5590324?hl=en",
+    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=frpLnkfHPP0"
   },
   {
@@ -384,12 +376,12 @@
         "info": "People's Artist of the BSSR"
       }
     ],
-    "galery": [
+    "gallery": [
       "http://www.kimpress.by/i/content/pi/cult/777/16774/2_2.jpg",
       "https://upload.wikimedia.org/wikipedia/ru/e/e9/Veinerovich_in.jpg",
       "https://media2.nekropole.info/2013/09/Iosif_522743041c3c2.jpeg"
     ],
-    "map": "https://www.google.com/maps/place/Minsk/@53.8845585,27.4532861,11z/data=!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9005961!4d27.5590324?hl=en",
+    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=jW5IDyz96VU"
   },
   {
@@ -477,12 +469,12 @@
         "info": "BSSR State Prize for the film \"Oginsky Polonaise\""
       }
     ],
-    "galery": [
+    "gallery": [
       "http://xpress.by/wp-content/uploads/2019/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA-5-1.jpg",
       "https://lh3.googleusercontent.com/proxy/aZ1JO6A_d7_9bE0SQ_zXPmp3EH1_pSvvQapVgCNO7x9aKUaJrBK9ldzCzZNezGwUMDLvkqyfrkamzi_5NvboeTjAD3khX8NGNiImpLYI",
       "https://pimg.mycdn.me/getImage?disableStub=true&type=VIDEO_S_720&url=https%3A%2F%2Fvdp.mycdn.me%2FgetImage%3Fid%3D417333512739%26idx%3D6%26thumbType%3D32%26f%3D1&signatureToken=nPAiU4thajX9uenx0mhMSA"
     ],
-    "map": "https://www.google.com/maps/place/Minsk/@53.8845585,27.4532861,11z/data=!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9005961!4d27.5590324?hl=en",
+    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=ERC4EfoH9Xo"
   },
   {
@@ -574,12 +566,12 @@
         "info": "Winner of the honorary diploma of the jury of the 42nd International Film Festival in Krakow"
       }
     ],
-    "galery": [
+    "gallery": [
       "https://upload.wikimedia.org/wikipedia/ru/thumb/3/37/Daschuk.jpg/350px-Daschuk.jpg",
       "https://persons-info.com/userfiles/image/persons/50000-60000/55000-56000/55827/DASHUK_Viktor_Nikiforovich1.jpg",
       "http://www.paul-katzenberger.de/wp-content/uploads/2014/08/viktar_dashuk-600x399.jpg"
     ],
-    "map": "https://www.google.com/maps/place/Minsk/@53.8845585,27.4532861,11z/data=!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9005961!4d27.5590324?hl=en",
+    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=qr_WlpzBAUs"
   }
 

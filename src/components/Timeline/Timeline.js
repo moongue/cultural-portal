@@ -17,7 +17,7 @@ const TimelineOfAuthor = (props) => {
           dateInnerStyle = { {background: '#80DEEA', color: '#000000'} }
           bodyContainerStyle = { { padding: '10px', background: '#bfbfbf', borderRadius: '10px', boxShadow: '5px 5px 10px #bfbfbf'} }
         >
-          <div>{t(`Khashchavatski timeline ${i}`)}</div>
+          <div>{t(e.info)}</div>
         </TimelineItem>
           )}
       </Timeline>

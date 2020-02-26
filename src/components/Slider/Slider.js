@@ -4,10 +4,10 @@ import 'react-awesome-slider/dist/styles.css';
 import AwsSliderStyles from './Slider.scss';
 
 const Slider = (props) => {
-  const { galery } = props.author;
+  const { gallery } = props.author;
   return (
     <AwesomeSlider className='slider' cssModule={AwsSliderStyles}>
-      {galery.map( (e, i) => <div data-src={e} alt='img' key={i}/>)}
+      {gallery.map( (e, i) => <div data-src={e} alt='img' key={i}/>)}
     </AwesomeSlider>
   )
 }
