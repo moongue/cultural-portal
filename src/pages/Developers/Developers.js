@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { withTranslation, useTranslation } from 'react-i18next';
-import CardGalleryFlip from '../../components/UI/Cards/Card-gallery-flip';
+import CardGalleryFlip from '../../components/Developers/Card-gallery-flip';
 import data from '../../data/dataDevelopers.json';
 import './Developers.scss';
 

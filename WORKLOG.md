@@ -3,3 +3,9 @@
 | 4h          | moongue          | add project structure with configuration |  
 | 4h          | moongue          | add header                               |
 | 15h         | Juliya-Potapchuk | add storybook with templates             |
+| 8h          | NadiaKaputkina   | add content with translate               |
+| 6.5h        | moongue          | add page list film directors             |
+| 2h          | chelvideo        | add route, add developers page           |
+| 4h          | chelvideo        | add flip feature for developes cards     |
+| 2h          | chelvideo        | add css style for developers page        |
+
