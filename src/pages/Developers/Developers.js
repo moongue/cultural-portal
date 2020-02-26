@@ -17,7 +17,8 @@ export const DevelopersListEl = () => {
             img={card.photo}
             name={t(card.name)}
             city={t(card.city)}
-            
+            github={card.github}
+            description={t(card.description)}
           />
         ))}
       </div>
