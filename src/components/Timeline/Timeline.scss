@@ -13,4 +13,7 @@
 
 .timeline--animate::before {
   left: calc(33% + 3px);
+  @media only screen and (max-width: 720px) {
+    left: 9px;
+  }
 }

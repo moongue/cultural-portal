@@ -12,14 +12,13 @@ class AppEl extends Component {
     return (
       <>
         <Header />
-        {/* <Greeting /> */}
-        <AuthorOfDay  />
         <div className="wrapper">
           <Route path="/" exact>
             <Greeting />
           </Route>
           <Route path="/film-directors" exact component={FilmDirectorsList} />
           <Route path="/film-directors/:id" component={FilmDirector} />
+          <AuthorOfDay />
         </div>
       </>
     );
