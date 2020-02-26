@@ -16,7 +16,11 @@
     border-bottom: 1px solid #808080;
     font-size: 1.5rem;
     .awards {
-      width: 80%;
+      max-width: 80%;
+    }
+    .works {
+      max-width: 70%;
+      text-align: end;
     }
   }
 }
