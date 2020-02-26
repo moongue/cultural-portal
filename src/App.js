@@ -13,6 +13,7 @@ class AppEl extends Component {
     return (
       <>
         <Header />
+        <AuthorOfDay />
         <div className="wrapper">
           <Route path="/" exact>
             <Greeting />

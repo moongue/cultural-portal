@@ -23,7 +23,7 @@ const FilmDirectorEl = () => {
           <p>{data[id].dateOfLife}</p>
           <p>{t(data[id].description)}</p>
           <Link to={`film-directors/${id}`}>
-            <SmallButton onClick={() => false} text={t('More')} />
+            <SmallButton onClick={() => false} text={t('More')}/>
           </Link>
         </div>
       </div>
@@ -31,12 +31,12 @@ const FilmDirectorEl = () => {
   );
 };
 
-const FilmDirectorComponent = withTranslation()(withRouter(FilmDirectorEl));
+const AuthorOfDayComponent = withTranslation()(withRouter(FilmDirectorEl));
 
-export default function FilmDirector() {
+export default function AuthorOfDay() {
   return (
     <Suspense fallback="loading">
-      <FilmDirectorComponent />
+      <AuthorOfDayComponent />
     </Suspense>
   );
-}
+};
