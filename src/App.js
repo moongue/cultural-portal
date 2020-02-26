@@ -18,15 +18,15 @@ class AppEl extends Component {
         <div className="wrapper">
           <Route path="/" exact>
             <Greeting />
-          </Route>
-          <Route path="/film-directors" exact component={FilmDirectorsList} />
-          <Route path="/film-directors/:id" component={FilmDirector} />
-          <Route path="/developers" component={Developers} />
             <AuthorOfDay />
             <Footer />
           </Route>
           <Route path="/film-directors" exact component={FilmDirectorsList} />
           <Route path="/film-directors/:id" component={FilmDirector} />
+          <Route path="/developers">
+            <Developers />
+            <Footer />
+          </Route>
         </div>
       </>
     );
