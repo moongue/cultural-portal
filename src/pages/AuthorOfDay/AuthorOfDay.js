@@ -1,4 +1,6 @@
 import React, { Suspense } from 'react';
+import Bounce from 'react-reveal/Bounce';
+import Flip from 'react-reveal/Flip';
 import { Link, withRouter } from 'react-router-dom';
 import { withTranslation, useTranslation } from 'react-i18next';
 import './AuthorOfDay.scss';
@@ -11,21 +13,27 @@ const FilmDirectorEl = () => {
 
   return (
     <div className="author-day">
-      <h2>{t('Author of the day')}</h2>
+      <Flip top>
+        <h2>{t('Author of the day')}</h2>
+      </Flip>
       <div className="wrap-author-day">
-        <img
-          className="img-author-day"
-          src={data[id].photo}
-          alt={data[id].name}
-        />
-        <div className="description-author-day">
-          <h2 style={{ textAlign: 'left' }}>{t(data[id].name)}</h2>
-          <p>{data[id].dateOfLife}</p>
-          <p>{t(data[id].description)}</p>
-          <Link to={`film-directors/${id}`}>
-            <SmallButton onClick={() => false} text={t('More')}/>
-          </Link>
-        </div>
+        <Bounce left>
+          <img
+            className="img-author-day"
+            src={data[id].photo}
+            alt={data[id].name}
+          />
+        </Bounce>
+        <Bounce right>
+          <div className="description-author-day">
+            <h2 style={{ textAlign: 'left' }}>{t(data[id].name)}</h2>
+            <p>{data[id].dateOfLife}</p>
+            <p>{t(data[id].description)}</p>
+            <Link to={`film-directors/${id + 1}`}>
+              <SmallButton onClick={() => false} text={t('More')}/>
+            </Link>
+          </div>
+        </Bounce>
       </div>
     </div>
   );

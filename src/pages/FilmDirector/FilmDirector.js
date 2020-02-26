@@ -1,5 +1,7 @@
 import React, { Suspense } from 'react';
 import PropTypes from 'prop-types';
+import Bounce from 'react-reveal/Bounce';
+import { withRouter } from 'react-router-dom';
 import { withTranslation, useTranslation } from 'react-i18next';
 import './FilmDirector.scss';
 import dataFilmDirectors from '../../data/dataFilmDirectors.json';
@@ -9,30 +11,34 @@ import MyMap from '../../components/Map/Map';
 import Player from '../../components/Player/Player';
 import MyCollapse from '../../components/Collapse/Collapse';
 
-const InitAuthorOfDay = () => {
+const InitAuthorOfDay = props => {
   const { t } = useTranslation();
-  const authorOfDay = dataFilmDirectors[0];
+  const id = props.match.params.id - 1;
+  const authorOfDay = dataFilmDirectors[id];
   return (
     <div className="wrapper">
-      <h2 style={{ marginTop: 40 }}>{t('Author of the day')}</h2>
       <div className="author">
-        <div className="author--short_description">
-          <img
-            src={authorOfDay.photo}
-            alt="author photo"
-            className="author--short_description-img"
-          />
-          <div className="author--short_description-name">
-            {t(authorOfDay.name)} ({t(authorOfDay.city)})
-          </div>
-          <div className="author--short_description-date">
-            {authorOfDay.dateOfLife}
-          </div>
-          <div className="author--short_description-info">
-            {t(authorOfDay.description)}
-          </div>
+        <div className="author-top">
+          <Bounce left>
+            <div className="author--short_description">
+              <img
+                src={authorOfDay.photo}
+                alt="author photo"
+                className="author--short_description-img"
+              />
+              <p className="author--short_description-name">
+                {t(authorOfDay.name)} ({t(authorOfDay.city)})
+              </p>
+              <p className="author--short_description-date">
+                {authorOfDay.dateOfLife}
+              </p>
+              <p className="author--short_description-info">
+                {t(authorOfDay.description)}
+              </p>
+            </div>
+          </Bounce>
+          <TimelineOfAuthor author={authorOfDay} />
         </div>
-        <TimelineOfAuthor author={authorOfDay} />
         <MySlider author={authorOfDay} />
         <MyCollapse
           list={authorOfDay.works}
@@ -57,7 +63,7 @@ InitAuthorOfDay.propsTypes = {
   children: PropTypes.node
 };
 
-const AuthorOfDayComponent = withTranslation()(InitAuthorOfDay);
+const AuthorOfDayComponent = withTranslation()(withRouter(InitAuthorOfDay));
 
 export default function AuthorOfDay() {
   return (
@@ -66,5 +72,3 @@ export default function AuthorOfDay() {
     </Suspense>
   );
 }
-
-

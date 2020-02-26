@@ -19,7 +19,11 @@ class MyCollapse extends Component {
     const { toggle } = this.state;
     return (
       <div className="collapse">
-        <button onClick={this.switchToggle} className="collapse--toggle">
+        <button
+          type="button"
+          onClick={this.switchToggle}
+          className="collapse--toggle"
+        >
           {tittle}
         </button>
         <Collapse

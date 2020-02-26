@@ -1,6 +1,7 @@
 import React, { Component, Suspense } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { withTranslation } from 'react-i18next';
+import ScrollToTop from './hoc/ScrollToTop';
 import Header from './components/Header/Header';
 import Greeting from './components/Greeting/Greeting';
 import AuthorOfDay from './pages/AuthorOfDay/AuthorOfDay';
@@ -13,7 +14,6 @@ class AppEl extends Component {
     return (
       <>
         <Header />
-        <AuthorOfDay />
         <div className="wrapper">
           <Route path="/" exact>
             <Greeting />
@@ -33,9 +33,11 @@ const AppComponent = withTranslation()(AppEl);
 export default function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback="loading">
-        <AppComponent />
-      </Suspense>
+      <ScrollToTop>
+        <Suspense fallback="loading">
+          <AppComponent />
+        </Suspense>
+      </ScrollToTop>
     </BrowserRouter>
   );
 }
