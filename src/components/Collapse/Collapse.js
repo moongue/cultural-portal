@@ -3,32 +3,41 @@ import Collapse from '@kunukn/react-collapse';
 import './Collaplse.scss';
 
 class MyCollapse extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
-    this.state = { toggle: false};
+    this.state = { toggle: false };
     this.switchToggle = this.switchToggle.bind(this);
   }
 
   switchToggle() {
     const { toggle } = this.state;
-    this.setState( {toggle: toggle ? false : true} );
+    this.setState({ toggle: !toggle });
   }
 
   render() {
     const { t, list, tittle, content } = this.props;
     const { toggle } = this.state;
     return (
-      <div className = 'collapse'>
-        <button onClick = { this.switchToggle } className = 'collapse--toggle'>{ tittle }</button>
-        <Collapse isOpen={ toggle } transition="height 300ms cubic-bezier(.4, 0, .2, 1)">
-          {list.map( (e, i) => <div className = 'collapse--item' key = { i }>
-            <span>{e.date}</span>
-            <span className = { content }>{t(`Khashchavatski ${content} ${i}`)}</span>
-          </div>)}
+      <div className="collapse">
+        <button onClick={this.switchToggle} className="collapse--toggle">
+          {tittle}
+        </button>
+        <Collapse
+          isOpen={toggle}
+          transition="height 300ms cubic-bezier(.4, 0, .2, 1)"
+        >
+          {list.map((e, i) => (
+            <div className="collapse--item" key={i}>
+              <span>{e.date}</span>
+              <span className={content}>
+                {t(`Khashchavatski ${content} ${i}`)}
+              </span>
+            </div>
+          ))}
         </Collapse>
       </div>
-    )
+    );
   }
-};
+}
 
 export default MyCollapse;

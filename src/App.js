@@ -13,7 +13,7 @@ class AppEl extends Component {
       <>
         <Header />
         {/* <Greeting /> */}
-        <AuthorOfDay  />
+        <AuthorOfDay />
         <div className="wrapper">
           <Route path="/" exact>
             <Greeting />
