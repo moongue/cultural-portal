@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
+import ReactMapboxGl from 'react-mapbox-gl';
 import './Map.scss';
 
 const MyMap = ({ map }) => {
