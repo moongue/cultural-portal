@@ -12,10 +12,10 @@ const MyMap = ({ map }) => {
   return (
     <div className="map">
       <div className="map--title">{t('Map')}</div>
-      <Map 
-        style="mapbox://styles/mapbox/dark-v10" 
-        center={ map.center } 
-        zoom={ [10] }
+      <Map
+        style="mapbox://styles/mapbox/dark-v10"
+        center={map.center}
+        zoom={[10]}
         className="map--content"
       />
     </div>
