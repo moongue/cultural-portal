@@ -1,21 +1,23 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { YMaps, Map } from 'react-yandex-maps';
+import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 import './Map.scss';
 
 const MyMap = ({ map }) => {
   const { t } = useTranslation();
+  const Map = ReactMapboxGl({
+    accessToken:
+      'pk.eyJ1IjoibGFuc3lmb25zZWthIiwiYSI6ImNrNzRrNjJ1MTBta3UzZ3QwMHpienluYWIifQ.Pyvr3AoV8mZB0_FgLwF28Q'
+  });
   return (
     <div className="map">
       <div className="map--title">{t('Map')}</div>
-      <YMaps
-        enterprise
-        query={{
-          apikey: '771966d7-3137-43b4-bb31-c414aaac9510'
-        }}
-      >
-        <Map state={map} className="map--content" />
-      </YMaps>
+      <Map 
+        style="mapbox://styles/mapbox/dark-v10" 
+        center={ map.center } 
+        zoom={ [10] }
+        className="map--content"
+      />
     </div>
   );
 };

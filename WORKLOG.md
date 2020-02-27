@@ -11,3 +11,4 @@
 | 12h         | lansyfonseka     | add page card author                     |
 | 6.5h        | moongue          | add page list film directors             |
 | 2.5h        | moongue          | add author day                           |
+| 2h          | lansyfonseka     | fix change map and styles of component   |
