@@ -125,7 +125,7 @@
       "https://novychas.by/images/bd23cf279cd5b25567f94e2715d42b16.jpg",
       "https://img.tyt.by/n/politika/05/a/khashchevatskiy.jpg"
     ],
-    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
+    "map": { "center": [27.561481,53.902496], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=bMtqkkjvcig"
   },
   {
@@ -205,7 +205,7 @@
       "http://zviazda.by/sites/default/files/field/image/29-21_kopiya_4.jpg",
       "https://time.graphics/uploadedFiles/500/02/6b/026b26e93a13fb752b8b39a801cfc63b.jpg"
     ],
-    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
+    "map": { "center": [27.561481,53.902496], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=TOBB80OpIRI"
   },
   {
@@ -280,7 +280,7 @@
       "https://www.kino-teatr.ru/acter/album/369699/635008.jpg",
       "https://www.kino-teatr.ru/acter/album/369699/635009.jpg"
     ],
-    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
+    "map": { "center": [27.561481,53.902496], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=frpLnkfHPP0"
   },
   {
@@ -381,7 +381,7 @@
       "https://upload.wikimedia.org/wikipedia/ru/e/e9/Veinerovich_in.jpg",
       "https://media2.nekropole.info/2013/09/Iosif_522743041c3c2.jpeg"
     ],
-    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
+    "map": { "center": [27.561481,53.902496], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=jW5IDyz96VU"
   },
   {
@@ -474,7 +474,7 @@
       "https://lh3.googleusercontent.com/proxy/aZ1JO6A_d7_9bE0SQ_zXPmp3EH1_pSvvQapVgCNO7x9aKUaJrBK9ldzCzZNezGwUMDLvkqyfrkamzi_5NvboeTjAD3khX8NGNiImpLYI",
       "https://pimg.mycdn.me/getImage?disableStub=true&type=VIDEO_S_720&url=https%3A%2F%2Fvdp.mycdn.me%2FgetImage%3Fid%3D417333512739%26idx%3D6%26thumbType%3D32%26f%3D1&signatureToken=nPAiU4thajX9uenx0mhMSA"
     ],
-    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
+    "map": { "center": [27.561481,53.902496], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=ERC4EfoH9Xo"
   },
   {
@@ -571,7 +571,7 @@
       "https://persons-info.com/userfiles/image/persons/50000-60000/55000-56000/55827/DASHUK_Viktor_Nikiforovich1.jpg",
       "http://www.paul-katzenberger.de/wp-content/uploads/2014/08/viktar_dashuk-600x399.jpg"
     ],
-    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
+    "map": { "center": [27.561481,53.902496], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=qr_WlpzBAUs"
   },
   {
@@ -668,7 +668,7 @@
       "https://lit-bel.org/assets/images/2015/News/maroz_07.JPG",
       "https://www.sb.by/upload/resize_cache/slam.image/iblock/c02/c021bfd5414d2efb1a8baf92d52bd967.jpg"
     ],
-    "map": { "center": [53.902496, 27.561481], "zoom": 12 },
+    "map": { "center": [27.561481,53.902496], "zoom": 12 },
     "youtube": "https://www.youtube.com/watch?v=AD4PMHNW-q4"
   }
 
