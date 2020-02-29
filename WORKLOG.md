@@ -13,3 +13,4 @@
 | 2h          | lansyfonseka     | fix change map and styles of component   |
 | 1h          | chelvideo        | add translation for developers page      |
 | 3h          | chelvideo        | add worklog page                         |
+| 2h          | Juliya-Potapchuk | change some styles                       |

@@ -8,7 +8,8 @@
   "Film Directors": "Кінарэжысёры",
   "Film Director page": "Старонка кинорежиссера",
   "Developers": "Распрацоўшчыкі",
-  "Worklog": "Журнал событый",
+  "Worklog": "Часопіс падзей",
+  "Styleguide": "Кіраўніцтва па стылі",
   "Biography": "Біяграфія",
   "Works": "Творы",
   "Awards": "Узнагароды",
@@ -199,5 +200,9 @@
 
   "Work Log": "Працоўны журнал",
   "Difficulty": "Складанасць",
-  "Self-evaluation": "Самаацэнка"
+  "Self-evaluation": "Самаацэнка",
+
+  "Developer": "Распрацоўшчык",
+  "Time spent" : "Час праведзена",
+  "Feature": "Функцыянал"
 }

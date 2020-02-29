@@ -9,6 +9,7 @@
   "Film Director page": "Страница кинорежиссера",
   "Developers": "Разработчики",
   "Worklog": "Журнал событий",
+  "Styleguide": "Гид по стилю",
   "Biography": "Биография",
   "Works": "Работы",
   "Awards": "Награды",
@@ -199,5 +200,11 @@
 
   "Work Log": "Журнал событий",
   "Difficulty": "Трудности",
-  "Self-evaluation": "Самооценка"
+  "Self-evaluation": "Самооценка",
+
+
+  "Developer": "Разработчик",
+  "Time spent" : "Время проведено",
+  "Feature": "Функционал"
+  
 }

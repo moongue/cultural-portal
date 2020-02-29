@@ -14,7 +14,7 @@ const MyButton = styled(Button)({
   margin: 'auto',
   transition: 'all .2s ease-in-out',
   '&:hover': {
-    transform: 'scale(1.03)',
+    transform: 'scale(1.03)'
   }
 });
 

@@ -64,10 +64,10 @@ export const Link = () => (
 export const Fonts = () => (
   <>
     <p style={{ fontFamily: 'Roboto, sans-serif', fontSize: '35px' }}>
-      This is a font 1 (1,2,3,4,5)
+      This is a font 1
     </p>
     <p style={{ fontFamily: 'Josefin Sans', fontSize: '35px' }}>
-      This is a font 2(1,2,3,4,5)
+      This is a font 2
     </p>
   </>
 );

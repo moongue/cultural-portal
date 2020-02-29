@@ -5,12 +5,28 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import '../../../index.scss';
-import './Card.scss';
+import { makeStyles } from '@material-ui/core/styles';
+import '../../index.scss';
+
+const useStyles = makeStyles({
+  root: {
+    fontFamily: 'Roboto, sans-serif',
+    width: '29.9%',
+    margin: '0 1.7% 25px',
+    boxShadow: '0 0 9px rgba(0, 0, 0, 0.2)',
+    transition: 'all .2s ease-in-out',
+    '&:hover': {
+      boxShadow: '4px 4px 12px rgba(0, 0, 0, 0.4)',
+      transform: 'scale(1.025)'
+    }
+  }
+});
 
 const FilmmakerCardGallery = props => {
+  const classes = useStyles();
+
   return (
-    <Card className="Card-filmmaker">
+    <Card className={classes.root}>
       <Link to={`/film-directors/${props.id}`}>
         <CardActionArea
           style={{

@@ -12,6 +12,7 @@ import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import ListAltRoundedIcon from '@material-ui/icons/ListAltRounded';
 import CodeRoundedIcon from '@material-ui/icons/CodeRounded';
 import PlaylistAddCheckRoundedIcon from '@material-ui/icons/PlaylistAddCheckRounded';
+import BrushIcon from '@material-ui/icons/Brush';
 import './Header.scss';
 import i18next from 'i18next';
 import logo from '../../assets/logo.svg';
@@ -38,6 +39,12 @@ const HeaderEl = props => {
         title: 'Worklog',
         link: '/worklog',
         icon: <PlaylistAddCheckRoundedIcon />
+      },
+      {
+        title: 'Styleguide',
+        link: 'https://culture-portal-menu-styleguide.netlify.com/',
+        icon: <BrushIcon />,
+        outLink: true
       }
     ],
     left: false,
@@ -66,10 +73,17 @@ const HeaderEl = props => {
           {state.nav.map((link, index) => (
             <li key={index}>
               <ListItem button key={index}>
-                <NavLink to={link.link}>
-                  {link.icon}
-                  {t(`${link.title}`)}
-                </NavLink>
+                {link.outLink ? (
+                  <a href={link.link}>
+                    {link.icon}
+                    {t(`${link.title}`)}
+                  </a>
+                ) : (
+                  <NavLink to={link.link}>
+                    {link.icon}
+                    {t(`${link.title}`)}
+                  </NavLink>
+                )}
               </ListItem>
             </li>
           ))}
