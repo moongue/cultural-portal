@@ -2,6 +2,8 @@
 
 demo: [https://cultural-portal-filmmakers.netlify.com](https://cultural-portal-filmmakers.netlify.com)
 
+worklog: [WORKLOG.md](https://github.com/moongue/cultural-portal/blob/master/WORKLOG.md)
+
 Min scope - 50
  - (+10) Main page + page with a list of authors + author's page (only pages with content without widgets);
  - (+10) Page with team members + page with worklog
