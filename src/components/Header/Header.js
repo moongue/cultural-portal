@@ -42,7 +42,7 @@ const HeaderEl = props => {
       },
       {
         title: 'Styleguide',
-        link: '/storybook',
+        link: 'https://ecstatic-raman-0fee2c.netlify.com',
         icon: <BrushIcon />
       }
     ],
