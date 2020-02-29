@@ -14,3 +14,4 @@
 | 1h          | chelvideo        | add translation for developers page      |
 | 3h          | chelvideo        | add worklog page                         |
 | 2h          | Juliya-Potapchuk | change some styles                       |
+| 2h          | Juliya-Potapchuk | add translation for worklog page         |

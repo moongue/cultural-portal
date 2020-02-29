@@ -35,9 +35,9 @@ class CollapseWorklog extends Component {
               <tbody>
                 {list.map((e, i) => (
                   <tr className={`${content}_collapse--item`} key={i}>
-                    <td className="td1">{e.key1}</td>
-                    <td className="td2">{e.key2}</td>
-                    <td className="td3">{e.key3}</td>
+                    <td className="td1">{this.props.t(e.key1)}</td>
+                    <td className="td2">{this.props.t(e.key2)}</td>
+                    <td className="td3">{this.props.t(e.key3)}</td>
                   </tr>
                 ))}
               </tbody>

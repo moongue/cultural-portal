@@ -29,7 +29,7 @@
         {
             "key1": "moongue",
             "key3": "add page list film directors",
-            "key2": "6.5h"
+            "key2": "6,5h"
         },
         {
             "key1": "chelvideo",
@@ -54,7 +54,7 @@
         {
             "key1": "moongue",
             "key3": "add author day",
-            "key2": "2.5h"
+            "key2": "2,5h"
         },
         {
             "key1": "lansyfonseka",
@@ -75,6 +75,11 @@
             "key1": "Juliya-Potapchuk",
             "key3": "change some styles",
             "key2": "2h"
+        },
+        {
+            "key1": "Juliya-Potapchuk",
+            "key3": "add translation for worklog page",
+            "key2": "2h"
         }
       ]
     },
@@ -82,7 +87,7 @@
     {
     "dif": [
         {
-            "key1": "The main difficulty in implementing this project was the conflict files during their merger."
+            "key1": "difficulties"
         }
 
       ]
@@ -96,7 +101,7 @@
             "key3": "State"
         },
         {
-            "key1": "Main page + page with a list of authors + author's page (only pages with content without widgets)",
+            "key1": "Requirement1",
             "key2": "10",
             "key3": "☑"
         },
