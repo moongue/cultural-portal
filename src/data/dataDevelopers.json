@@ -4,7 +4,7 @@
     "github": "lansyfonseka",
     "name": "Egor Ryabtsev",
     "photo": "https://avatars3.githubusercontent.com/u/45271624?s=400&v=4",
-    "description": "home page, page card author",
+    "description": "devDescription1",
     "city": "Minsk"
   },
   
@@ -13,7 +13,7 @@
     "github": "chelvideo",
     "name": "Konstantin Andreev",
     "photo": "https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/man5-512.png",
-    "description": "developers page and routing for it",
+    "description": "devDescription2",
     "city": "Moscow"
   },
 
@@ -22,7 +22,7 @@
     "github": "nadiakaputkina",
     "name": "Nadia Kaputkina",
     "photo": "https://avatars2.githubusercontent.com/u/49942066?s=400&v=4",
-    "description": "data file with filmmakers",
+    "description": "devDescription3",
     "city": "Minsk"
   },
 
@@ -31,7 +31,7 @@
     "github": "moongue",
     "name": "Oleksandr Moiseienko",
     "photo": "https://avatars1.githubusercontent.com/u/35103618?s=400&v=4",
-    "description": "structure of project, head, directors page, routing",
+    "description": "devDescription4",
     "city": "Mykolayiv"
   },
 
@@ -40,7 +40,7 @@
     "github": "juliya-potapchuk",
     "name": "Yuliya Potapchuk",
     "photo": "https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/woman4-512.png",
-    "description": "stylebook for this project",
+    "description": "devDescription5",
     "city": "Minsk"
   }
 
