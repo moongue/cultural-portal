@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Collapse from '@kunukn/react-collapse';
 import './Collaplse.scss';
 

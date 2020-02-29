@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { withTranslation, useTranslation } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import { withRouter } from 'react-router-dom';
 import './Footer.scss';
 

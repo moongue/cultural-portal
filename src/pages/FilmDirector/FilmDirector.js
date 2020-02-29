@@ -23,7 +23,7 @@ const InitAuthorOfDay = props => {
             <div className="author--short_description">
               <img
                 src={authorOfDay.photo}
-                alt="author photo"
+                alt="author"
                 className="author--short_description-img"
               />
               <p className="author--short_description-name">
