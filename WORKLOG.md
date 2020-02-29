@@ -9,6 +9,7 @@
 | 4h          | chelvideo        | add flip feature for developes cards     |
 | 2h          | chelvideo        | add css style for developers page        |
 | 12h         | lansyfonseka     | add page card author                     |
-| 6.5h        | moongue          | add page list film directors             |
 | 2.5h        | moongue          | add author day                           |
 | 2h          | lansyfonseka     | fix change map and styles of component   |
+| 1h          | chelvideo        | add translation for developers page      |
+| 3h          | chelvideo        | add worklog page                         |

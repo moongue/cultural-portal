@@ -80,7 +80,7 @@ const DevelopersCardGallery = props => {
                 variant="h6"
                 style={{ margin: '45px 25px 0' }}
               >
-                Contribution for this project:
+                {props.contrib}
               </Typography>
             <Typography
               variant="body1"

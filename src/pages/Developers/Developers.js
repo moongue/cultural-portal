@@ -19,6 +19,7 @@ export const DevelopersListEl = () => {
             city={t(card.city)}
             github={card.github}
             description={t(card.description)}
+            contrib={t('contrib')}
           />
         ))}
       </div>

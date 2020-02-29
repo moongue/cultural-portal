@@ -1,0 +1,200 @@
+[
+    {
+      "log": [
+        {
+            "key1": "Developer",
+            "key2": "Time spent",
+            "key3": "Feature"
+        },
+        {
+            "key1": "moongue",
+            "key2": "4h",
+            "key3": "add project structure with configuration"
+        },
+        {
+            "key1": "moongue",
+            "key2": "4h",
+            "key3": "add header"
+        },
+        {
+            "key1": "Juliya-Potapchuk",
+            "key3": "add storybook with templates",
+            "key2": "15h"
+        },
+        {
+            "key1": "NadiaKaputkina",
+            "key3": "add content with translate",
+            "key2": "8h"
+        },
+        {
+            "key1": "moongue",
+            "key3": "add page list film directors",
+            "key2": "6.5h"
+        },
+        {
+            "key1": "chelvideo",
+            "key3": "add route, add developers page",
+            "key2": "2h"
+        },
+        {
+            "key1": "chelvideo",
+            "key3": "add flip feature for developes cards",
+            "key2": "4h"
+        },
+        {
+            "key1": "chelvideo",
+            "key3": "add css style for developers page",
+            "key2": "2h"
+        },
+        {
+            "key1": "lansyfonseka",
+            "key3": "add page card author",
+            "key2": "12h"
+        },
+        {
+            "key1": "moongue",
+            "key3": "add author day",
+            "key2": "2.5h"
+        },
+        {
+            "key1": "lansyfonseka",
+            "key3": "fix change map and styles of component",
+            "key2": "2h"
+        },
+        {
+            "key1": "chelvideo",
+            "key3": "add translation for developers page",
+            "key2": "1h"
+        },
+        {
+            "key1": "chelvideo",
+            "key3": "add worklog page",
+            "key2": "3h"
+        }
+      ]
+    },
+
+    {
+    "dif": [
+        {
+            "key1": "The main difficulty in implementing this project was the conflict files during their merger."
+        }
+        
+      ]
+    },
+
+    {
+    "self": [
+        {
+            "key1": "Requirement",
+            "key2": "Points",
+            "key3": "State"
+        },
+        {
+            "key1": "Main page + page with a list of authors + author's page (only pages with content without widgets)",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Page with team members + page with worklog",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Page with list of authors contains search widget",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Portal has two languages",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Portal has page with styleguide",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Mobile version is okey",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Ipad/tablet version is okey",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Author's page contains timeline",
+            "key2": "0",
+            "key3": "☒"
+        },
+        {
+            "key1": "Author's page contains video overlay",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Author's page contains photo gallery",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Author's page contains map (geowidget)",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Design (typography, icons, colors, links + buttons + input are styled)",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Material-ui / bootstrap is used",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Portal has third language",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Confidence of the project presentation",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Project is made using gatsbyjs",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Contentful / netlify cms is used for content management",
+            "key2": "10",
+            "key3": "☑"
+        },
+        {
+            "key1": "Animations / special effects like paralax",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Outstanding design",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Storybook/styleguidist/other react styleguide tool usage for the page with styles",
+            "key2": "20",
+            "key3": "☑"
+        },
+        {
+            "key1": "Total:",
+            "key2": "270",
+            "key3": ""
+        }
+      ]
+    }
+]

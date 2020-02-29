@@ -9,6 +9,7 @@ import AuthorOfDay from './pages/AuthorOfDay/AuthorOfDay';
 import FilmDirectorsList from './pages/FilmDirectorsList/FilmDirectorsList';
 import FilmDirector from './pages/FilmDirector/FilmDirector';
 import Footer from './components/Footer/Footer';
+import Worklog from './pages/Worklog/Worklog';
 
 class AppEl extends Component {
   render() {
@@ -25,6 +26,10 @@ class AppEl extends Component {
           <Route path="/film-directors/:id" component={FilmDirector} />
           <Route path="/developers">
             <Developers />
+            <Footer />
+          </Route>
+          <Route path="/worklog">
+            <Worklog />
             <Footer />
           </Route>
         </div>

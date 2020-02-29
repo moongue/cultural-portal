@@ -181,7 +181,19 @@
   "Moroz awards 2": "Medal of the Union of Belarusian Cinematographers \"For exceptional services in Belarusian cinema\"",
   "Moroz awards 3": "Received an honorary diploma of the Council of Ministers of the Republic of Belarus",
   "Moroz awards 4": "Awarded the badge of the National Film Studio Belarusfilm \"For Merit\"",
-  "Moroz awards 5": "Belarusian Trade Union Award"
+  "Moroz awards 5": "Belarusian Trade Union Award",
+
+  "Egor Ryabtsev": "Egor Ryabtsev",
+  "Konstantin Andreev": "Konstantin Andreev",
+  "Nadia Kaputkina": "Nadia Kaputkina",
+  "Oleksandr Moiseienko": "Oleksandr Moiseienko",
+  "Yuliya Potapchuk": "Yuliya Potapchuk",
+  "devDescription1": "home page, page card author",
+  "devDescription2": "developers, worklog pages and routing for they",
+  "devDescription3": "data file with filmmakers",
+  "devDescription4": "structure of project, head, directors page, routing",
+  "devDescription5": "stylebook for this project",
+  "contrib": "Contribution for this project:"
 
 
 }
