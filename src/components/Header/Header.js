@@ -12,6 +12,7 @@ import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import ListAltRoundedIcon from '@material-ui/icons/ListAltRounded';
 import CodeRoundedIcon from '@material-ui/icons/CodeRounded';
 import PlaylistAddCheckRoundedIcon from '@material-ui/icons/PlaylistAddCheckRounded';
+import BrushIcon from '@material-ui/icons/Brush';
 import './Header.scss';
 import i18next from 'i18next';
 import logo from '../../assets/logo.svg';
@@ -38,6 +39,11 @@ const HeaderEl = props => {
         title: 'Worklog',
         link: '/worklog',
         icon: <PlaylistAddCheckRoundedIcon />
+      },
+      {
+        title: 'Styleguide',
+        link: '/storybook',
+        icon: <BrushIcon />
       }
     ],
     left: false,

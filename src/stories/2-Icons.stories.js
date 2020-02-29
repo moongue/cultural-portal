@@ -4,7 +4,8 @@ import {
   HomeICON,
   FilmmakerICON,
   DevelopersICON,
-  EventLogICON
+  EventLogICON,
+  StoryBookICON
 } from '../components/UI/Icons/icons';
 
 export const MenuIcon = () => (
@@ -30,6 +31,11 @@ export const DevelopersIcon = () => (
 export const EventLogIcon = () => (
   <div style={{ margin: 20 }}>
     <EventLogICON />
+  </div>
+);
+export const StoryBookIcon = () => (
+  <div style={{ margin: 20 }}>
+    <StoryBookICON />
   </div>
 );
 
