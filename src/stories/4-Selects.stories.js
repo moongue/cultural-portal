@@ -5,7 +5,11 @@ const SelectTemplateProps = () => {
   const array = ['en', 'ru', 'by'];
   const value = 'en';
   const callback = () => <p>Hello</p>;
-  return <SelectTemplate array={array} value={value} callback={callback} />;
+  return (
+    <div style={{ margin: 20 }}>
+      <SelectTemplate array={array} value={value} callback={callback} />
+    </div>
+  );
 };
 
 export const Select = () => <SelectTemplateProps />;

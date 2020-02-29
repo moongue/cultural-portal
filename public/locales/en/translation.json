@@ -9,6 +9,7 @@
   "Film Director page": "Film Director page",
   "Developers": "Developers",
   "Worklog": "Worklog",
+  "Styleguide": "Styleguide",
   "Biography": "Biography",
   "Works": "Works",
   "Awards": "Awards",
@@ -198,5 +199,9 @@
 
   "Work Log": "Work Log",
   "Difficulty": "Difficulty",
-  "Self-evaluation": "self-evaluation"
+  "Self-evaluation": "self-evaluation",
+
+  "Developer": "Developer",
+  "Time spent" : "Time spent",
+  "Feature": "Feature"
 }

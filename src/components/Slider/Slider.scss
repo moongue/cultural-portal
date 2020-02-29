@@ -13,3 +13,8 @@
     background: #fff;
   }
 }
+
+.awssld__content > img {
+  filter: grayscale(1);
+  object-fit: contain;
+}

@@ -10,6 +10,7 @@ import MySlider from '../../components/Slider/Slider';
 import MyMap from '../../components/Map/Map';
 import Player from '../../components/Player/Player';
 import MyCollapse from '../../components/Collapse/Collapse';
+import FilmmakerCardProfile from '../../components/UI/Card/CardProfile';
 
 const InitAuthorOfDay = props => {
   const { t } = useTranslation();
@@ -19,22 +20,13 @@ const InitAuthorOfDay = props => {
     <div className="author">
       <div className="author-top">
         <Bounce left>
-          <div className="author--short_description">
-            <img
-              src={authorOfDay.photo}
-              alt="author"
-              className="author--short_description-img"
-            />
-            <p className="author--short_description-name">
-              {t(authorOfDay.name)} ({t(authorOfDay.city)})
-            </p>
-            <p className="author--short_description-date">
-              {authorOfDay.dateOfLife}
-            </p>
-            <p className="author--short_description-info">
-              {t(authorOfDay.description)}
-            </p>
-          </div>
+          <FilmmakerCardProfile
+            img={authorOfDay.photo}
+            name={t(authorOfDay.name)}
+            city={t(authorOfDay.city)}
+            years={authorOfDay.dateOfLife}
+            description={t(authorOfDay.description)}
+          />
         </Bounce>
         <TimelineOfAuthor author={authorOfDay} />
       </div>

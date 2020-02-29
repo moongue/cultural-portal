@@ -5,7 +5,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { withTranslation, useTranslation } from 'react-i18next';
 import './AuthorOfDay.scss';
 import data from '../../data/dataFilmDirectors.json';
-import SmallButton from '../../components/UI/Buttons/Small-button';
+import SmallButton from '../../components/UI/Buttons/SmallButton';
 
 const FilmDirectorEl = () => {
   const id = 4;
