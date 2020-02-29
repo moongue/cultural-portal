@@ -204,6 +204,7 @@
   "Developer": "Developer",
   "Time spent" : "Time spent",
   "Feature": "Feature",
+  "Total": "Total:",
 
   "add project structure with configuration": "add project structure with configuration",
   "add header": "add header",
@@ -219,7 +220,7 @@
   "add translation for developers page": "add translation for developers page",
   "add worklog page": "add worklog page",
   "change some styles": "change some styles",
-  "add translation for worklog page ": "add translation for worklog page ",
+  "add translation for worklog page ": "add translation for worklog page",
 
   "4h": "4h",
   "15h": "15h",

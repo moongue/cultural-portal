@@ -205,6 +205,7 @@
   "Developer": "Распрацоўшчык",
   "Time spent" : "Час праведзена",
   "Feature": "Функцыянал",
+  "Total": "Усяго",
 
   "add project structure with configuration": "дадаць канфігурацыю праекта з канфігурацыяй",
   "add header": "дадаць загаловак",
@@ -220,7 +221,7 @@
   "add translation for developers page": "дадаць пераклад для старонкі распрацоўшчыкаў",
   "add worklog page": "дадаць старонку часопіс падзей",
   "change some styles": "змяніць некаторыя стылі",
-  "add translation for worklog page ": "дадаць пераклад для старонкі часопіс падзей",
+  "add translation for worklog page": "дадаць пераклад для старонкі часопіс падзей",
 
   "4h": "4г",
   "15h": "15г",
