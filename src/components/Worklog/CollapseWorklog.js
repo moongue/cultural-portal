@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Collapse from '@kunukn/react-collapse';
 import './CollapseWorklog.scss';
 
@@ -15,7 +15,7 @@ class CollapseWorklog extends Component {
   }
 
   render() {
-    const { t, list, tittle, content } = this.props;
+    const { list, tittle, content } = this.props;
     const { toggle } = this.state;
     if (list.length)
       return (
@@ -31,19 +31,21 @@ class CollapseWorklog extends Component {
             isOpen={toggle}
             transition="height 300ms cubic-bezier(.4, 0, .2, 1)"
           >
-            {list.map((e, i) => (
-                <tr className={content + '_collapse--item'} key={i}>
-                  <td className="td1">{e.key1 }</td>
-                  <td className="td2">{e.key2}</td>
-                  <td className="td3">{e.key3 }</td>
-                </tr>
-                
-            ))}
+            <table style={{ width: '100%' }}>
+              <tbody>
+                {list.map((e, i) => (
+                  <tr className={`${content}_collapse--item`} key={i}>
+                    <td className="td1">{e.key1}</td>
+                    <td className="td2">{e.key2}</td>
+                    <td className="td3">{e.key3}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </Collapse>
         </div>
       );
-    else 
-      return null;
+    return null;
   }
 }
 

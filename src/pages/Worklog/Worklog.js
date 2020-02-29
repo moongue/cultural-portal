@@ -1,7 +1,5 @@
 import React, { Suspense } from 'react';
 import { withTranslation, useTranslation } from 'react-i18next';
-import CardGalleryFlip from '../../components/Developers/Card-gallery-flip';
-import data from '../../data/dataDevelopers.json';
 import dataWorklog from '../../data/dataWorklog.json';
 import CollapseWorklog from '../../components/Worklog/CollapseWorklog';
 import './Worklog.scss';
@@ -14,11 +12,11 @@ export const WorklogEl = () => {
     <>
       <div className="worklog-list">
         <CollapseWorklog
-            list={LogItem.log}
-            tittle={t('Work Log')}
-            content="log"
-            t={t}
-          />
+          list={LogItem.log}
+          tittle={t('Work Log')}
+          content="log"
+          t={t}
+        />
 
         <CollapseWorklog
           list={dataWorklog[1].dif}

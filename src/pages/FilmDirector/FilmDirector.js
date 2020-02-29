@@ -16,45 +16,43 @@ const InitAuthorOfDay = props => {
   const id = props.match.params.id - 1;
   const authorOfDay = dataFilmDirectors[id];
   return (
-    <div className="wrapper">
-      <div className="author">
-        <div className="author-top">
-          <Bounce left>
-            <div className="author--short_description">
-              <img
-                src={authorOfDay.photo}
-                alt="author"
-                className="author--short_description-img"
-              />
-              <p className="author--short_description-name">
-                {t(authorOfDay.name)} ({t(authorOfDay.city)})
-              </p>
-              <p className="author--short_description-date">
-                {authorOfDay.dateOfLife}
-              </p>
-              <p className="author--short_description-info">
-                {t(authorOfDay.description)}
-              </p>
-            </div>
-          </Bounce>
-          <TimelineOfAuthor author={authorOfDay} />
-        </div>
-        <MySlider author={authorOfDay} />
-        <MyCollapse
-          list={authorOfDay.works}
-          tittle={t('Works')}
-          content="works"
-          t={t}
-        />
-        <MyCollapse
-          list={authorOfDay.awards}
-          tittle={t('Awards')}
-          content="awards"
-          t={t}
-        />
-        <Player youtube={authorOfDay.youtube} />
-        <MyMap map={authorOfDay.map} />
+    <div className="author">
+      <div className="author-top">
+        <Bounce left>
+          <div className="author--short_description">
+            <img
+              src={authorOfDay.photo}
+              alt="author"
+              className="author--short_description-img"
+            />
+            <p className="author--short_description-name">
+              {t(authorOfDay.name)} ({t(authorOfDay.city)})
+            </p>
+            <p className="author--short_description-date">
+              {authorOfDay.dateOfLife}
+            </p>
+            <p className="author--short_description-info">
+              {t(authorOfDay.description)}
+            </p>
+          </div>
+        </Bounce>
+        <TimelineOfAuthor author={authorOfDay} />
       </div>
+      <MySlider author={authorOfDay} />
+      <MyCollapse
+        list={authorOfDay.works}
+        tittle={t('Works')}
+        content="works"
+        t={t}
+      />
+      <MyCollapse
+        list={authorOfDay.awards}
+        tittle={t('Awards')}
+        content="awards"
+        t={t}
+      />
+      <Player youtube={authorOfDay.youtube} />
+      <MyMap map={authorOfDay.map} />
     </div>
   );
 };

@@ -1,13 +1,9 @@
 .worklog_collapse {
   margin-top: 30px;
-
-  &:first-child {
-    margin-top: 60px;
-  }
 }
 
 .log_collapse {
- 
+
   &--toggle {
     padding: 6px 0;
     width: 100%;
@@ -20,38 +16,44 @@
     outline: none;
     cursor: pointer;
   }
-  
+
   &--item {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
 
-    //padding: 8px 10px;
     font-size: 1.3rem;
     margin: 5px 0;
-    //background: #fbe7e7;
     border-radius: 4px;
 
-.td1 {
-  width: 20%;
-  background: #fbe7e7;
-  padding: 8px 10px;
-  border-radius: 4px;
-}
+    td {
+      margin-right: 4px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
 
-.td2 {
-  width: 13%;
-  background: #fbe7e7;
-  padding: 8px 10px;
-  border-radius: 4px;
-  text-align: center;
-}
+    .td1 {
+      width: 20%;
+      background: #fbe7e7;
+      padding: 8px 10px;
+      border-radius: 4px;
+    }
 
-.td3 {
-  width: 60%;background: #fbe7e7;
-  padding: 8px 10px;
-  border-radius: 4px;
-}
+    .td2 {
+      width: 13%;
+      background: #fbe7e7;
+      padding: 8px 10px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .td3 {
+      width: 60%;
+      background: #fbe7e7;
+      padding: 8px 10px;
+      border-radius: 4px;
+    }
 
     &:first-child {
       margin-top: 15px;
@@ -63,14 +65,10 @@
       }
     }
   }
-  
 }
 
 
-
-
 .dif_collapse {
- 
   &--toggle {
     padding: 6px 0;
     width: 100%;
@@ -83,29 +81,28 @@
     outline: none;
     cursor: pointer;
   }
-  
+
   &--item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    //padding: 8px 10px;
     font-size: 1.3rem;
     margin: 5px 0;
-    //background: #fbe7e7;
     border-radius: 4px;
+
     &:first-child {
       margin-top: 15px;
       text-align: center;
-     
+
     }
   }
-  
+
 }
 
 
 .self_collapse {
- 
+
   &--toggle {
     padding: 6px 0;
     width: 100%;
@@ -118,38 +115,44 @@
     outline: none;
     cursor: pointer;
   }
-  
+
   &--item {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    //padding: 8px 10px;
     font-size: 1.3rem;
     margin: 5px 0;
-    //background: #fbe7e7;
     border-radius: 4px;
 
-.td1 {
-  width: 73%;
-  background: #fbe7e7;
-  padding: 8px 10px;
-  border-radius: 4px;
-}
+    td {
+      margin-right: 4px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
 
-.td2 {
-  width: 10%;
-  background: #fbe7e7;
-  padding: 8px 10px;
-  border-radius: 4px;
-  text-align: center;
-}
+    .td1 {
+      width: 73%;
+      background: #fbe7e7;
+      padding: 8px 10px;
+      border-radius: 4px;
+    }
 
-.td3 {
-  width: 10%;background: #fbe7e7;
-  padding: 8px 10px;
-  border-radius: 4px;
-  text-align: center;
-}
+    .td2 {
+      width: 10%;
+      background: #fbe7e7;
+      padding: 8px 10px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .td3 {
+      width: 10%;
+      background: #fbe7e7;
+      padding: 8px 10px;
+      border-radius: 4px;
+      text-align: center;
+    }
 
     &:first-child, &:last-child {
       margin-top: 15px;
@@ -167,17 +170,52 @@
       }
     }
   }
-  
 }
 
-
-
-@media (max-width : 727px) {
+@media (max-width: 727px) {
   .collapse--toggle {
     font-size: 1.3rem;
   }
 
   .log_collapse--item, .self_collapse--item, .dif_collapse--item {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .log_collapse--item, .self_collapse--item, .dif_collapse--item {
+    font-size: .85rem;
+  }
+  .log_collapse {
+    &--item {
+      .td2 {
+        display: none;
+      }
+      .td1 {
+        width: 25%;
+      }
+      .td3 {
+        width: 75%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .log_collapse {
+    &--item {
+      .td1 {
+        width: 35%;
+      }
+      .td3 {
+        width: 65%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .log_collapse--item, .self_collapse--item, .dif_collapse--item {
+    font-size: .75rem;
   }
 }

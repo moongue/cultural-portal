@@ -6,6 +6,7 @@
   "Menu": "Menu",
   "Home": "Home",
   "Film Directors": "Film Directors",
+  "Film Director page": "Film Director page",
   "Developers": "Developers",
   "Worklog": "Worklog",
   "Biography": "Biography",
@@ -193,7 +194,9 @@
   "devDescription3": "data file with filmmakers",
   "devDescription4": "structure of project, head, directors page, routing",
   "devDescription5": "stylebook for this project",
-  "contrib": "Contribution for this project:"
+  "contrib": "Contribution for this project:",
 
-
+  "Work Log": "Work Log",
+  "Difficulty": "Difficulty",
+  "Self-evaluation": "self-evaluation"
 }

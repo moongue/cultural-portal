@@ -13,6 +13,7 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     width: '100%',
     maxWidth: 656,
+    boxSizing: 'border-box',
     boxShadow: '0 0 9px rgba(0, 0, 0, 0.2);'
   },
   input: {

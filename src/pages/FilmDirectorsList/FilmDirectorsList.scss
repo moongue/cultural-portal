@@ -1,5 +1,9 @@
 .Directors-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 -1.7%;
+}
+
+@media only screen and (max-width: 636px) {
+  margin: 0 -2%;
 }

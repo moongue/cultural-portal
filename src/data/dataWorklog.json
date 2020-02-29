@@ -79,7 +79,7 @@
         {
             "key1": "The main difficulty in implementing this project was the conflict files during their merger."
         }
-        
+
       ]
     },
 
@@ -106,16 +106,6 @@
             "key3": "☑"
         },
         {
-            "key1": "Portal has two languages",
-            "key2": "20",
-            "key3": "☑"
-        },
-        {
-            "key1": "Portal has page with styleguide",
-            "key2": "20",
-            "key3": "☑"
-        },
-        {
             "key1": "Mobile version is okey",
             "key2": "10",
             "key3": "☑"
@@ -127,8 +117,8 @@
         },
         {
             "key1": "Author's page contains timeline",
-            "key2": "0",
-            "key3": "☒"
+            "key2": "10",
+            "key3": "☑"
         },
         {
             "key1": "Author's page contains video overlay",
@@ -167,13 +157,13 @@
         },
         {
             "key1": "Project is made using gatsbyjs",
-            "key2": "10",
-            "key3": "☑"
+            "key2": "0",
+            "key3": "☒"
         },
         {
             "key1": "Contentful / netlify cms is used for content management",
-            "key2": "10",
-            "key3": "☑"
+            "key2": "0",
+            "key3": "☒"
         },
         {
             "key1": "Animations / special effects like paralax",
@@ -192,7 +182,7 @@
         },
         {
             "key1": "Total:",
-            "key2": "270",
+            "key2": "220",
             "key3": ""
         }
       ]
