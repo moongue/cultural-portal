@@ -9,6 +9,7 @@
 }
 
 .video_player {
+  filter: grayscale(1);
   border-radius: 8px;
   display: block;
   margin: auto;

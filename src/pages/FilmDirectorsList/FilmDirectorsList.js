@@ -1,6 +1,6 @@
 import React, { Suspense, useState } from 'react';
 import { withTranslation, useTranslation } from 'react-i18next';
-import FilmmakerCardGallery from '../../components/UI/Cards/Card-gallery';
+import FilmmakerCardGallery from '../../components/CardFilmmaker/CardGallery';
 import Input from '../../components/UI/Input/input';
 import data from '../../data/dataFilmDirectors.json';
 import './FilmDirectorsList.scss';

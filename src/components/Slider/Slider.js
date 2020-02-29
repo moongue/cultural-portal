@@ -8,7 +8,12 @@ const Slider = props => {
   return (
     <AwesomeSlider className="slider" cssModule={AwsSliderStyles}>
       {gallery.map((e, i) => (
-        <div data-src={e} alt="img" key={i} />
+        <div
+          data-src={e}
+          alt="img"
+          key={i}
+          style={{ filter: 'grayscale(1)' }}
+        />
       ))}
     </AwesomeSlider>
   );

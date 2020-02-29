@@ -34,7 +34,7 @@ class MyCollapse extends Component {
             {list.map((e, i) => (
               <div className="collapse--item" key={i}>
                 <span>{e.date}</span>
-                <span className={content}>
+                <span className={content} style={{ textAlign: 'end' }}>
                   {t(e.info)}
                 </span>
               </div>

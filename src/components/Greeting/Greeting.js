@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
 import PropTypes from 'prop-types';
 import { withTranslation, useTranslation } from 'react-i18next';
-import SmallButton from '../UI/Buttons/Small-button';
+import SmallButton from '../UI/Buttons/SmallButton';
 import './Greeting.scss';
 import img from '../../assets/header-bg.jpg';
 

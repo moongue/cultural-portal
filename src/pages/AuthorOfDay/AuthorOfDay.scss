@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 .author-day {
   margin-bottom: 50px;
 }
 
 .wrap-author-day {
+  text-align: center;
   padding-top: 30px;
   display: flex;
   align-items: center;
@@ -25,6 +28,10 @@
     font-size: 20px;
     line-height: 1.4;
   }
+}
+
+.years-author-day {
+  font-family: 'Josefin Sans';
 }
 
 @media only screen and (max-width: 670px) {

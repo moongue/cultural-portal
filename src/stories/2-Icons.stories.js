@@ -4,26 +4,34 @@ import {
   HomeICON,
   FilmmakerICON,
   DevelopersICON,
-  EventLogICON,
-  VideoICON,
-  MapICON,
-  WorksICON,
-  BiographyICON,
-  GalleryICON,
-  UpICON
+  EventLogICON
 } from '../components/UI/Icons/icons';
 
-export const MenuIcon = () => <MenuICON />;
-export const HomeIcon = () => <HomeICON />;
-export const FilmmakerIcon = () => <FilmmakerICON />;
-export const DevelopersIcon = () => <DevelopersICON />;
-export const EventLogIcon = () => <EventLogICON />;
-export const VideoIcon = () => <VideoICON />;
-export const MapIcon = () => <MapICON />;
-export const WorksIcon = () => <WorksICON />;
-export const BiographyIcon = () => <BiographyICON />;
-export const GalleryIcon = () => <GalleryICON />;
-export const UpIcon = () => <UpICON />;
+export const MenuIcon = () => (
+  <div style={{ margin: 20 }}>
+    <MenuICON />
+  </div>
+);
+export const HomeIcon = () => (
+  <div style={{ margin: 20 }}>
+    <HomeICON />
+  </div>
+);
+export const FilmmakerIcon = () => (
+  <div style={{ margin: 20 }}>
+    <FilmmakerICON />
+  </div>
+);
+export const DevelopersIcon = () => (
+  <div style={{ margin: 20 }}>
+    <DevelopersICON />
+  </div>
+);
+export const EventLogIcon = () => (
+  <div style={{ margin: 20 }}>
+    <EventLogICON />
+  </div>
+);
 
 export default {
   title: 'Icons'

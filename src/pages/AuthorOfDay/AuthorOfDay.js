@@ -5,7 +5,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { withTranslation, useTranslation } from 'react-i18next';
 import './AuthorOfDay.scss';
 import data from '../../data/dataFilmDirectors.json';
-import SmallButton from '../../components/UI/Buttons/Small-button';
+import SmallButton from '../../components/UI/Buttons/SmallButton';
 
 const FilmDirectorEl = () => {
   const id = 4;
@@ -26,11 +26,11 @@ const FilmDirectorEl = () => {
         </Bounce>
         <Bounce right>
           <div className="description-author-day">
-            <h2 style={{ textAlign: 'left' }}>{t(data[id].name)}</h2>
-            <p>{data[id].dateOfLife}</p>
+            <h2>{t(data[id].name)}</h2>
+            <p className="years-author-day">{data[id].dateOfLife}</p>
             <p>{t(data[id].description)}</p>
             <Link to={`film-directors/${id + 1}`}>
-              <SmallButton onClick={() => false} text={t('More')}/>
+              <SmallButton onClick={() => false} text={t('More')} />
             </Link>
           </div>
         </Bounce>
@@ -47,4 +47,4 @@ export default function AuthorOfDay() {
       <AuthorOfDayComponent />
     </Suspense>
   );
-};
+}

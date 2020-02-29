@@ -6,6 +6,7 @@ const AreaButton = props => {
     <IconButton
       edge="start"
       color="inherit"
+      // eslint-disable-next-line react/no-this-in-sfc
       onClick={e => this.props.onClick(e)}
     >
       {props.icon}
